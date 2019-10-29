@@ -7,85 +7,213 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Treat Your Pup</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script src="https://kit.fontawesome.com/7f61f2d383.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
 <body>
-  <article class="container">
+  <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <a href="index.html" class="navbar-brand">Treat Your Pup</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavMobile" aria-controls="navbarNavMobile" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse collapse" id="navbarNavMobile">
+      <ul class="navbar-nav ml-auto">
+        <li class="active nav-item mr-2"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item mr-2"><a href="meals.html" class="nav-link">See Meals</a></li>
+        <li class="nav-item mr-2"><a href="faq.html" class="nav-link">FAQ</a></li>
+        <li class="nav-item mr-2"><a href="contact.html" class="nav-link">Contact Us</a></li>
+        <li class="nav-item mr-2 d-block d-sm-none"><a href="#" class="nav-link" data-toggle="modal" data-target="#trialDiscountModal">Get 10% off!</a></li>
+      </ul>
+    </div>
+    <div class="d-none d-md-block">
+      <a href="#" data-toggle="modal" data-target="#trialDiscountModal"> Get 10% off!</a>
+    </div>
+  </nav>
     <!-- Landing Area -->
-    <section class="landing-area">
-      <h1>Fresh meals delivered daily</h1>
-      <p class="lead">Healthier for them. Easier for you.</p>
-    </section>
+    <div class="container-fluid landing-container">
+    <div class="row">
+      <div class="col-12">
+        <section class="landing-area jumbotron text-left">
+          <h1 class="landing-header">Fresh meals delivered daily</h1>
+          <p class="lead">Healthier for them. Easier for you.</p>
+          <button type="button" class="btn btn-dark btn-lg d-none d-md-block">Try it out!</button>
+        </section>
+      </div>
+    </div>
+    </div>
     <!-- End of Landing Area -->
-
     <!-- Main benefits -->
+    <div class="container benefits-container">
     <section class="three-benefits">
-      <div class="benefit">
-        <h3>Designed with your dog in mind</h3>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="media">
+            <img src="assets/images/benefits-1.png" alt="dog eating a cupcake" height=100% width=100%>
+          </div>
+          <div class="benefit">
+            <h3>Designed with your dog in mind</h3>
             <p>There are many different meal options depending on your dog's dietary needs. The meals are made and portioned depending on the options you select while checking out.</p>
+          </div>
         </div>
-      <div class="benefit">
-        <h3>Organic Ingredients</h3>
-          <p>We believe that you shouldn't feed your dog something you wouldn't want to eat yourself. That's why we mostly use organic ingredients and only use human-grade meat. </p>
-      </div>
-      <div class="benefit">
-        <h3>Complete and Balanced Diet</h3>
-          <p>Designed and approved by veterinarians, the meals have include every vitamin and nutrient that your dog would ever need.</p>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="media">
+            <img src="assets/images/benefits-2.png" alt="bowl of vegetables" height=100% width=100%>
+          </div>
+          <div class="benefit">
+            <h3>Organic Ingredients</h3>
+            <p>We believe that you shouldn't feed your dog something you wouldn't want to eat yourself. That's why we mostly use organic ingredients and only use human-grade meat. </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 offset-md-3 offset-lg-0 col-lg-4">
+          <div class="media">
+            <img src="assets/images/benefits-3.png" alt="happy dog in the car" height=100% width=100%>
+          </div>
+          <div class="benefit">
+            <h3>Complete and Balanced Diet</h3>
+            <p>Designed and approved by veterinarians, the meals have include every vitamin and nutrient that your dog would ever need.</p>
+          </div>
+        </div>
       </div>
     </section>
+  </div>
     <!-- End of main benefits -->
-
     <!-- Veterinarian review -->
-    <section class="vet-review">
-      <h2>Created with the help of an expert in veterinary nutrition</h2>
-        <p>"Treat Your Pup is perfect for anyone who wants to start feeding their dog healthier meals without having to worry about cooking. Both my patients and my own dogs love it!</br>
-        -Dr. Jude Paw </p>
-    </section>
+    <div class="container vet-container">
+    <div class="row">
+      <div class="col-12 my-5 text-center">
+        <section class="vet-review">
+          <blockquote class="blockquote">
+            <h2>Created with the help of an expert in veterinary nutrition</h2>
+            <p>"Treat Your Pup is perfect for anyone who wants to start feeding their dog healthier meals without having to worry about cooking. Both my patients and my own dogs love it!</p>
+            <p>-Dr. Jude Paw</p>
+          </blockquote>
+        </section>
+      </div>
+    </div>
+  </div>
     <!-- End of veterinarian review -->
-
     <!-- What is and isn't included section -->
+    <div class="container included-container">
     <section class="what-is-included">
-      <h2>Putting the health of your best friend first</h2>
-      <div class="item">
-        <h3>No Kibble</h3>
-        <p>No one should have to eat those overly-processed and tasteless balls of goo.</p>
+      <div class="row">
+        <div class="col-12 my-5 text-center">
+          <h2>Putting the health of your best friend first</h2>
+        </div>
       </div>
-      <div class="item">
-        <h3>No "Meals""</h3>
-        <p>These ingredients commonly found in commercial dog food are the worst, unhealthy, leftover parts of meat.</p>
-      </div>
-      <div class="item">
-        <h3>No Preservatives</h3>
-        <p>All our meals are made fresh when ordered. No natural or atificial preservatives necessary.</p>
-      </div>
-      <div class="item">
-        <h3>Full transparency</h3>
-        <p>We source our ingredients from places that we trust and are happily willing to share the origins of all the ingredients used.</p>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item">
+            <h3><i class="fas fa-times"></i> No Kibble</h3>
+            <p>No one should have to eat those overly-processed and tasteless balls of goo.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item">
+            <h3><i class="fas fa-times"></i> No "Meals"</h3>
+            <p>These ingredients commonly found in commercial dog food are the worst, unhealthy, leftover parts of meat.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item">
+            <h3><i class="fas fa-times"></i> No Preservatives</h3>
+            <p>All our meals are made fresh when ordered. No natural or atificial preservatives necessary.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item">
+            <h3><i class="fas fa-check"></i> Full transparency</h3>
+            <p>We source our ingredients from places that we trust and are happily willing to share the origins of all the ingredients used.</p>
+          </div>
+        </div>
       </div>
     </section>
+  </div>
     <!-- End of what is and isn't included section -->
-
     <!-- Customer reviews -->
+    <div class="container reviews-container">
     <section class="customer-reviews">
-      <h2>See what our customers have to say</h2>
-      <blockquote class="review">
-          <p>My 13 year old dog is acting like a puppy again with this diet! It has given her so much more energy after only twee weeks!  </p>
-      </blockquote>
-      <blockquote class="review">
-          <p>I didn't know it was possible to find food that my dog wouldn't be allergic to. He has such a sensitive stomach, but this has done the trick! Thanks you Treat Your Pup!</p>
-      </blockquote>
-      <blockquote class="review">
-          <p>Absolutely love coming home and not having to cook for my dog anymore. Saves me so much time without the guild of feeding her kibble!</p>
-    </blockquote>
+      <div class="row">
+        <div class="col-12 my-5 text-center">
+          <h2>See what our customers have to say</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="media">
+            <img src="assets/images/_barkobama.jpg" alt="man and dog" height=90% width=90%>
+          </div>
+          <blockquote class="blockquote mt-2">
+            <p>My 13 year old dog is acting like a puppy again with this diet! It has given her so much more energy after only twee weeks! </p>
+            <p>- Bark Obama</p>
+          </blockquote>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="media">
+            <img src="assets/images/_oliviachewtonjohn.jpg" alt="woman and dog" height=90% width=90%>
+          </div>
+          <blockquote class="blockquote mt-2">
+            <p>I didn't know it was possible to find food that my dog wouldn't be allergic to. He has such a sensitive stomach, but this has done the trick!</p>
+            <p>- Olivia Chewton John</p>
+          </blockquote>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="media">
+            <img src="assets/images/harrypawter.jpg" alt="man and dog" height=90% width=90%>
+          </div>
+          <blockquote class="blockquote mt-2">
+            <p>Absolutely love coming home and not having to cook for my dog anymore. Saves me so much time without the guilt of feeding her kibble!</p>
+            <p>- Harry Pawter</p>
+          </blockquote>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="media">
+            <img src="assets/images/_jkgrowling.jpg" alt="woman and dog" height=90% width=90%>
+          </div>
+          <blockquote class="blockquote mt-2">
+            <p>I switched over to Treat Your Pup because my dog was losing a lot of hair. Now he looks like the real-life version of Chewbacca! </p>
+            <p>- JK Growling</p>
+          </blockquote>
+        </div>
+      </div>
     </section>
+  </div>
     <!-- End of customer reviews -->
+  <div class="modal" tabindex="-1" role="dialog" id="trialDiscountModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Create an account to get 10% off on your first order!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="Email">Enter your email address</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Email" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="Password1">Password</label>
+              <input type="password" class="form-control" id="Password1" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+              <label for="Password2">Repeat Password</label>
+              <input type="password" class="form-control" id="Password2" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn btn-dark">Create Account</button>
+          </form>
+        </div>
 
-  </article>
+      </div>
+    </div>
+  </div>
 
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

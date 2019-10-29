@@ -1,0 +1,66 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+
+.vet-container {
+
+}
+
+.included-container {
+
+}
+
+.reviews-container {
+
+}
+
+/* ------------------- Landing Area */
+
+.landing-container {
+height: 90vh;
+background: url("../images/typbackgroundimage.png") no-repeat center right;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .landing-container {
+    background: url("../images/typ-background-image-small.jpeg") no-repeat center right;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     display: flex;
+     align-items: flex-end;
+  }
+}
+
+.jumbotron {
+  background-color: rgba(220,220,220, 0.8)
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron {
+    background-color: transparent;
+  }
+}
+
+.landing-header {
+  margin-bottom: 10px;
+}
+
+
+/*-------------------- Benefits */
+
+.benefits-container {
+  margin-top: 30px;
+}
+/* ------------------- Heading */
+
+/* ------------------- Footer */
