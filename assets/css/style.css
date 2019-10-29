@@ -1,43 +1,90 @@
+html {
+min-height: 100%;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* ------------------- Buttons */
 
-.vet-container {
-
+.btn--cta {
+  border-radius: 23px;
+  font-weight: bold;
+  width: 160px;
 }
 
-.included-container {
-
+.btn--blue {
+  color: #ffffff;
+  background-color: #6bb8ff;
+  border-color: #6bb8ff;
 }
 
-.reviews-container {
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+  background-color: #5897d1;
+  border-color: #5897d1;
+  color: #ffffff;
+}
 
+/* ------------------- Navbar */
+
+.nav-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+  font-size: 125%;
 }
 
 /* ------------------- Landing Area */
 
 .landing-container {
 height: 90vh;
-background: url("../images/typbackgroundimage.png") no-repeat center right;
+background: url("../images/typ-background-image-small.jpeg") no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
  display: flex;
- align-items: center;
+ align-items: flex-end;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 1100px) {
   .landing-container {
-    background: url("../images/typ-background-image-small.jpeg") no-repeat center right;
+    background: url("../images/typbackgroundimage.jpg") no-repeat bottom right fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
-     background-size: cover;
+     background-size: cover
      display: flex;
-     align-items: flex-end;
+     align-items: center;
   }
 }
 
@@ -45,7 +92,7 @@ background: url("../images/typbackgroundimage.png") no-repeat center right;
   background-color: rgba(220,220,220, 0.8)
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1300px) {
   .jumbotron {
     background-color: transparent;
   }
@@ -60,7 +107,182 @@ background: url("../images/typbackgroundimage.png") no-repeat center right;
 
 .benefits-container {
   margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.benefit h3 {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ------------------- Vet Approved */
+
+.vet-container {
+background-color: rgba(220,220,220, 0.8)
+}
+
+
+.vet-image-mobile {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vet-image-large {
+  display: block;
+  margin: auto;
+}
+
+.vet-review {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.vet-review h2 {
+  margin-bottom: 30px;
+}
+
+
+/* ------------------- What is and isn't included */
+
+
+.included-container {
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.item h3, p {
+  margin-bottom: 30px;
+}
+
+.item h3 {
+  text-align: center;
+}
+
+.no-x {
+  color: #E62329;
+}
+
+.checkmark {
+  color: #0C9559;
+}
+
+/* ------------------- full width dog image */
+
+.dog-image-container {
+  height: 50vh;
+  background-image: url(../images/bottom-image.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+background-position: center center;
+max-width:100%;
+}
+
+/* ------------------- Reviews */
+
+.review {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews-container {
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
 /* ------------------- Heading */
 
 /* ------------------- Footer */
+
+footer {
+  background-color: rgba(220,220,220, 0.8);
+  min-height: 120px;
+  margin: 0;
+}
+
+#footer-information {
+  padding: 20px;
+}
+.footer-contact {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-contact h4 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.footer-contact h5 {
+  margin-top: 20px;
+}
+
+.footer-contact p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.footer-nav {
+  line-height: 3pt;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer-nav a {
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-nav a:hover {
+  color: #fbc52c
+}
+
+.footer-social {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer-social h5 {
+  margin-bottom: 20px;
+}
+
+.footer-social li a i {
+  font-size: 35px;
+  line-height: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 12px 0;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-social i:hover {
+  color: #fbc52c
+}
+footer a {
+  color: #000000;
+}
