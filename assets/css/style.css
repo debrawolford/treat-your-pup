@@ -383,6 +383,7 @@ button[type="submit"] {
 
 .meals-container h2 {
   margin-bottom: 30px;
+background-color: rgba(220,220,220, 0.8);
 }
 
 /*---- FAQ Page ---*/
