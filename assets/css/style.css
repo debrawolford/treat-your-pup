@@ -9,6 +9,8 @@ body {
   margin-right: auto;
 }
 
+
+
 /* ------------------- Buttons */
 
 .btn--cta {
@@ -32,10 +34,29 @@ body {
   color: #ffffff;
 }
 
+.btn--yellow {
+  color: #ffffff;
+  background-color: #fbc52c;
+  border-color: #fbc52c;
+}
+
+.btn--yellow:hover,
+.btn--yellow:active,
+.btn--yellow:focus,
+.btn--yellow:active:focus {
+  background-color: #D4A526;
+  border-color: #D4A526;
+  color: #ffffff;
+}
+
+.button-link {
+  color: #ffffff;
+}
+
 /* ------------------- Navbar */
 
 .nav-container {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   padding-left: 0;
@@ -46,7 +67,7 @@ body {
   margin-bottom: 0;
   border: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255);
 }
 
 .navbar-toggler {
@@ -67,6 +88,7 @@ body {
 
 .landing-container {
 height: 90vh;
+display: block;
 background: url("../images/typ-background-image-small.jpeg") no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -285,4 +307,68 @@ footer {
 }
 footer a {
   color: #000000;
+}
+
+/*----- Contact Page --- */
+
+.contact {
+  padding-top: 100px;
+}
+
+.contact-heading {
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.contact-subhead {
+  margin-bottom: 20px;
+}
+
+.center-form {
+  max-width: 80%;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .center-form {
+    max-width: 60%;
+    min-height: 60vh;
+  }
+}
+
+/*----- Meals Page ----*/
+
+.main-content {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meals-container .media {
+  padding-bottom: 20px;
+}
+
+.meals-container button {
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.meals-plain {
+  padding-bottom: 40px;
+}
+
+.meals-special {
+  padding-bottom: 40px;
+}
+
+.meals-container h2 {
+  margin-bottom: 30px;
 }
