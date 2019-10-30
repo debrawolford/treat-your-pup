@@ -53,6 +53,27 @@ body {
   color: #ffffff;
 }
 
+/* ------------------- full width images */
+
+.dog-image-container {
+  height: 50vh;
+  background-image: url(../images/bottom-image.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+background-position: center center;
+max-width:100%;
+}
+
+.two-dogs-image-container {
+  height: 40vh;
+  background-image: url(../images/two-happy-dogs.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+background-position: center center;
+max-width:100%;
+margin-bottom: 30px;
+}
+
 /* ------------------- Navbar */
 
 .nav-container {
@@ -197,16 +218,7 @@ margin-right: auto;
   color: #0C9559;
 }
 
-/* ------------------- full width dog image */
 
-.dog-image-container {
-  height: 50vh;
-  background-image: url(../images/bottom-image.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-background-position: center center;
-max-width:100%;
-}
 
 /* ------------------- Reviews */
 
@@ -312,7 +324,7 @@ footer a {
 /*----- Contact Page --- */
 
 .contact {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .contact-heading {
@@ -338,7 +350,7 @@ button[type="submit"] {
 @media screen and (min-width: 992px) {
   .center-form {
     max-width: 60%;
-    min-height: 60vh;
+    min-height: 30vh;
   }
 }
 
@@ -371,4 +383,22 @@ button[type="submit"] {
 
 .meals-container h2 {
   margin-bottom: 30px;
+}
+
+/*---- FAQ Page ---*/
+
+.faq-container h2 {
+  margin-top:20px;
+}
+
+.col-12 ul {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  line-height: 20pt;
+}
+
+.faq-container h3 {
+  background-color: rgba(220,220,220, 0.8);
 }
