@@ -47,7 +47,32 @@ This website is designed for people who want to feed their dogs healthy and fres
 
 Chrome Developer Tools was used the entirety of my project to test out how the website rendered on different viewports/devices. By using the device selector I went through each screen size to confirm that everything looked correct each time. If something wasn't rendering properly, I would first edit the code within Chrome Developer to see my changes as I typed them. Once the issue was resolved, I would add it to my code in Atom.
 
-Currently the website has been tested in both Google Chrome and Safari. Everything renders well on Safari for desktop, but on Safari for mobile the background image at the top of the home page is pushing too far to the left and only shows a gray background. In Google Chrome for desktop there is an issue with the top of the same background image being cut off and looking strange. A large amount of time has gone into fixing both issues, so for now I have decided to let it be until a future time.
+Currently the website has been tested in both Google Chrome and Safari. Everything renders well on Safari for desktop, but on Safari for mobile the background image at the top of the home page is pushing too far to the left and only shows a grey background. In Google Chrome for desktop there is an issue with the top of the same background image being cut off and looking strange. A large amount of time has gone into fixing both issues, so for now I have decided to let it be until a future time.
+
+- Contact Form:
+1. Click on "Contact Us"
+2. Tried submitting the form empty but received an error message asking to fill in data.
+3. Tried to submit the form by filling in something other than an email address in the email form but received an error message asking me to put in a valid email address
+4. Tried submitting form with all fields filled in correctly and received the pop up message.
+
+- Modal form: Same as contact form, except submit button does not create a pop-up or link to another page yet.
+
+-Navigation bar and Footer:
+1. Try selecting all options while on the Home page to see if they lead to the corresponding pages: success
+2. Try selecting all options while on the Meals page to see if they lead to the corresponding pages: success
+3. Try selecting all options while on the FAQ page to see if they lead to the corresponding pages: success
+4. Try selecting all options while on the Contact Us page to see if they lead to the corresponding pages: success
+
+-Social buttons:
+1. When selecting Facebook icon it directs to facebook.com.
+2. When selecting Instagram icon it directs to instagram.com.
+3. When selecting Twitter icon it directs to twitter.com
+
+-Order Meals:
+1. Click on "See Meals"
+2. Click on any order button on the page.
+3. See if "Error: This part of the website is currently under maintenance" message pops up when trying to order.
+4. Repeat for all "Order" buttons on the page.
 
 W3C Markup Validation was used to ensure that all of the HTML and CSS code matches industry standards.
 
@@ -75,7 +100,7 @@ W3C Markup Validation was used to ensure that all of the HTML and CSS code match
 
 ### Content
 
-Both the idea of having a large background image and a pop up modal for the 10% discount modal came from the "Whiskey Drop" mini project. But both were heavily modified to fit the style of this project.
+Both the idea of having a large background image and a pop up modal for the 10% discount modal came from the "Whiskey Drop" mini project. The background image code was modified to fit the style of Treat Your Pup. The initial modal code was taken from Bootstrap and then modified to become a sign-up pop-up.
 
 The initial code for the background image was copied from <a href="https://css-tricks.com/perfect-full-page-background-image/"> CSS Tricks</a> and modified to work with the image used on the site.
 
