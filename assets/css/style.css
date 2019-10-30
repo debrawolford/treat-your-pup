@@ -104,8 +104,11 @@ body {
 .landing-container {
   height: 90Vh;
   width: 100%;
-  background: url("../images/background/typ-background-image-mobile.jpg") no-repeat fixed;
-  background-repeat: no-repeat;
+  background: url("../images/background/typ-background-image-mobile.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: flex;
   align-items: flex-end;
 }
