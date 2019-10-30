@@ -102,8 +102,8 @@ body {
 
 /* ------------------- Landing Area */
 .landing-container {
+  min-height: 40vh;
   height: 90Vh;
-  width: 100%;
   background: url("../images/background/typ-background-image-mobile.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -392,6 +392,10 @@ button[type="submit"] {
 /*---- FAQ Page ---*/
 .faq-container h2 {
   margin-top: 20px;
+}
+
+.faq-container {
+  margin-top: 60px;
 }
 
 .col-12 ul {
