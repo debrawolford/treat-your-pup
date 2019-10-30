@@ -102,8 +102,9 @@ body {
 
 /* ------------------- Landing Area */
 .landing-container {
-  height: 90vh;
-  background: url("../images/background/typ-background-image-mobile.jpg") no-repeat center center fixed;
+  height: 90Vh;
+  width: 100%;
+  background: url("../images/background/typ-background-image-mobile.jpg") no-repeat fixed;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
