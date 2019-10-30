@@ -21,12 +21,14 @@ This website is designed for people who want to feed their dogs healthy and fres
 - 10% sign up button: Although it is not fully functioning yet as the website is currently static, when a user selects this button a form will pop up allowing the user to create an account in order to get 10% off on their first order.
 -  Mobile responsiveness: The website has been designed with both mobile and desktop users in mind. Many of the images disappear when viewing the website from a small screen in order to save space. The navigation bar collapses into a mobile-friendly icon known as a "hamburger" icon, and the "Try it Out" button disappears on mobile screens as well.
 - All images have an alt tag for screen readers and in case the image doesn't load properly.
+- A modal pops up when users select "Order" on the Meals page. This lets them know that we are currently not accepting any orders.
 
 ### Hopeful Future Features
 
 - Order page: At the moment when wanting to order any of the meals by selecting the order button, nothing happens. This will be updated in the future to include an order process.
 - More FAQ answers: Currently there are only the most basic questions and answers. But as we learn what customers ask about we will start adding more questions and answers.
 - User Accounts: Due to a lack of knowledge in back end development there are no pages regarding user accounts yet. But the goal is to give customers the option to create an account in order to make future orders simpler and quicker.
+- I tried adding a modal letting the user know that their form had been submitted, but unfortunately it popped up even when the fields weren't filled out. So leaving this for a later date.
 
 ## Technologies Used
 
