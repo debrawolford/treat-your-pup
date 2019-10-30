@@ -312,6 +312,7 @@ footer {
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+  text-rendering: optimizeLegibility;
 }
 
 .footer-social i:hover {
