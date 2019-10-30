@@ -1,5 +1,5 @@
 html {
-min-height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -9,10 +9,7 @@ body {
   margin-right: auto;
 }
 
-
-
 /* ------------------- Buttons */
-
 .btn--cta {
   border-radius: 23px;
   font-weight: bold;
@@ -54,14 +51,13 @@ body {
 }
 
 /* ------------------- full width images */
-
 .dog-image-container {
   height: 50vh;
   background-image: url(../images/bottom-image.jpg);
   background-attachment: fixed;
   background-size: cover;
-background-position: center center;
-max-width:100%;
+  background-position: center center;
+  max-width: 100%;
 }
 
 .two-dogs-image-container {
@@ -69,13 +65,12 @@ max-width:100%;
   background-image: url(../images/two-happy-dogs.jpg);
   background-attachment: fixed;
   background-size: cover;
-background-position: center center;
-max-width:100%;
-margin-bottom: 30px;
+  background-position: center center;
+  max-width: 100%;
+  margin-bottom: 30px;
 }
 
 /* ------------------- Navbar */
-
 .nav-container {
   position: relative;
   top: 0;
@@ -106,33 +101,43 @@ margin-bottom: 30px;
 }
 
 /* ------------------- Landing Area */
-
 .landing-container {
-height: 90vh;
-display: block;
-background: url("../images/typ-background-image-small.jpeg") no-repeat center center fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- display: flex;
- align-items: flex-end;
+  height: 90vh;
+  display: block;
+  background: url("../images/background/typ-background-image-mobile.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (min-width:768px) {
+.landing-container {
+  background: url("../images/typ-background-image-small.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
 }
 
 @media screen and (min-width: 1100px) {
   .landing-container {
     background: url("../images/typbackgroundimage.jpg") no-repeat bottom right fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover
-     display: flex;
-     align-items: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover display: flex;
+    align-items: center;
   }
 }
 
 .jumbotron {
-  background-color: rgba(220,220,220, 0.8)
+  background-color: rgba(220, 220, 220, 0.8)
 }
 
 @media screen and (min-width: 1300px) {
@@ -145,9 +150,7 @@ background: url("../images/typ-background-image-small.jpeg") no-repeat center ce
   margin-bottom: 10px;
 }
 
-
 /*-------------------- Benefits */
-
 .benefits-container {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -162,11 +165,9 @@ background: url("../images/typ-background-image-small.jpeg") no-repeat center ce
 }
 
 /* ------------------- Vet Approved */
-
 .vet-container {
-background-color: rgba(220,220,220, 0.8)
+  background-color: rgba(220, 220, 220, 0.8)
 }
-
 
 .vet-image-mobile {
   display: block;
@@ -192,14 +193,11 @@ background-color: rgba(220,220,220, 0.8)
   margin-bottom: 30px;
 }
 
-
 /* ------------------- What is and isn't included */
-
-
 .included-container {
-margin-top: 30px;
-margin-left: auto;
-margin-right: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item h3, p {
@@ -218,10 +216,7 @@ margin-right: auto;
   color: #0C9559;
 }
 
-
-
 /* ------------------- Reviews */
-
 .review {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -230,18 +225,15 @@ margin-right: auto;
 }
 
 .reviews-container {
-margin-top: 30px;
-margin-left: auto;
-margin-right: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 /* ------------------- Heading */
-
 /* ------------------- Footer */
-
 footer {
-  background-color: rgba(220,220,220, 0.8);
+  background-color: rgba(220, 220, 220, 0.8);
   min-height: 120px;
   margin: 0;
 }
@@ -249,6 +241,7 @@ footer {
 #footer-information {
   padding: 20px;
 }
+
 .footer-contact {
   display: inline-block;
   text-align: center;
@@ -318,30 +311,29 @@ footer {
 .footer-social i:hover {
   color: #fbc52c
 }
+
 footer a {
   color: #000000;
 }
 
 /*----- Contact Page --- */
-
 .contact-container {
   display: block;
-
 }
 
 @media screen and (min-width: 768px) {
   .contact-container {
     background: url("../images/bottom-image.jpg") no-repeat center center fixed;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 
 .contact-heading {
   margin-top: 20px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .contact-subhead {
@@ -367,7 +359,6 @@ button[type="submit"] {
 }
 
 /*----- Meals Page ----*/
-
 .main-content {
   padding-top: 10px;
   margin-left: auto;
@@ -395,13 +386,12 @@ button[type="submit"] {
 
 .meals-container h2 {
   margin-bottom: 30px;
-background-color: rgba(220,220,220, 0.8);
+  background-color: rgba(220, 220, 220, 0.8);
 }
 
 /*---- FAQ Page ---*/
-
 .faq-container h2 {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .col-12 ul {
@@ -413,5 +403,5 @@ background-color: rgba(220,220,220, 0.8);
 }
 
 .faq-container h3 {
-  background-color: rgba(220,220,220, 0.8);
+  background-color: rgba(220, 220, 220, 0.8);
 }
