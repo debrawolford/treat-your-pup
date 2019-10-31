@@ -73,7 +73,7 @@ Currently the website has been tested in both Google Chrome and Safari. Everythi
 -Order Meals:
 1. Click on "See Meals"
 2. Click on any order button on the page.
-3. See if "Error: This part of the website is currently under maintenance" message pops up when trying to order.
+3. See if "Sorry! " message pops up when trying to order.
 4. Repeat for all "Order" buttons on the page.
 
 W3C Markup Validation was used to ensure that all of the HTML and CSS code matches industry standards.

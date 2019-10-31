@@ -107,6 +107,7 @@ header {
   margin-top: 70px;
   height: 90Vh;
   width: 100%;
+  max-width: 1400px;
   background: url("../images/background/typ-background-image-mobile.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
