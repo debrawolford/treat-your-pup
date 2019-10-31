@@ -34,7 +34,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* ------------------- Buttons */
+/*  Buttons */
 .btn--cta {
   border-radius: 23px;
   font-weight: bold;
@@ -87,7 +87,7 @@ button[type="submit"] {
   margin-left: auto;
 }
 
-/* ------------------- full width images */
+/* full width images */
 .dog-image-container {
   height: 50vh;
   background-image: url("../images/background/bottom-image.jpg");
@@ -110,7 +110,7 @@ button[type="submit"] {
   filter: alpha(opacity=70);
 }
 
-/* ------------------- Navigation bar */
+/*  Navigation bar */
 .navbar {
   margin-bottom: 0;
   border: 0;
@@ -132,7 +132,7 @@ button[type="submit"] {
   font-size: 125%;
 }
 
-/* ------------------- Home Page: Landing Area */
+/* Home Page: Landing Area */
 /* Added margin-top to stop landing image from disappearing under navbar and to simulate spacing with the help of Anthony from the Slack communitt */
 /* Basic code taken from CSS tricks (Perfect Background Image): https://css-tricks.com/perfect-full-page-background-image/ and modified */
 .landing-container {
@@ -189,7 +189,7 @@ button[type="submit"] {
   margin-bottom: 10px;
 }
 
-/*-------------------- Home Page: Benefits */
+/* Home Page: Benefits */
 .benefits-container {
   margin: 30px auto;
 }
@@ -200,7 +200,7 @@ button[type="submit"] {
   margin-bottom: 30px;
 }
 
-/* ------------------- Home Page: Veterinarian Review Section */
+/* Home Page: Veterinarian Review Section */
 .vet-container {
   background-color: rgba(220, 220, 220, 0.8)
 }
@@ -223,7 +223,7 @@ button[type="submit"] {
   margin-bottom: 30px;
 }
 
-/* ------------------- Home Page: What is and isn't included */
+/* Home Page: What is and isn't included */
 .included-container {
   margin-top: 30px;
   margin-left: auto;
@@ -247,7 +247,7 @@ button[type="submit"] {
   color: #0C9559;
 }
 
-/* ------------------- Home Page: Customer reviews */
+/* Home Page: Customer reviews */
 .reviews-container {
   margin-top: 30px;
   margin-left: auto;
@@ -262,8 +262,11 @@ button[type="submit"] {
   font-weight: light;
 }
 
-/* ------------------- Heading */
-/* ------------------- Footer */
+.review-image {
+  margin: 0 auto;
+}
+
+/* Footer */
 footer {
   background-color: rgba(220, 220, 220, 0.8);
   min-height: 120px;
@@ -369,6 +372,12 @@ smoothly and match the rest of the page style*/
   color: #fbc52c
 }
 
+/* Added due to the suggestion from peer-review on slack.
+This makes the phone icon appear more normal. */
+.fa-phone {
+  transform: rotate(90deg);
+}
+
 /*----- Contact Page --- */
 
 /*Contact Container is pushed down from the top to keep the fixed navbar
@@ -440,12 +449,13 @@ in order to center the content and space everything out.  */
 }
 
 /*---- FAQ Page ---*/
-.faq-container h2 {
-  margin-top: 20px;
-}
 
 .faq-container {
   margin-top: 60px;
+}
+
+.faq-container h2 {
+  margin-top: 20px;
 }
 
 .col-12 ul {
