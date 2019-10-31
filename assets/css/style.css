@@ -241,7 +241,7 @@ smoothly and match the rest of the page style*/
 }
 
 /* Added due to the suggestion from peer-review on slack.
-This makes the phone icon appear more normal. */
+This makes the phone icon appear more "normal". */
 .fa-phone {
   transform: rotate(90deg);
 }
@@ -325,8 +325,7 @@ This makes the phone icon appear more normal. */
 }
 
 #vet-image-large {
-  display: block;
-  margin: auto;
+margin: auto;
 }
 
 #vet-review {
