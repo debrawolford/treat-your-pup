@@ -34,38 +34,40 @@ a:hover {
   text-decoration: none;
 }
 
-/*  Buttons */
-.btn--cta {
+/*  Buttons
+Any styling for buttons on the website can be
+found here */
+.btn-cta {
   border-radius: 23px;
   font-weight: bold;
   width: 160px;
 }
 
-.btn--blue {
+.btn-blue {
   color: #ffffff;
   background-color: #6bb8ff;
   border-color: #6bb8ff;
 }
 
-.btn--blue:hover,
-.btn--blue:active,
-.btn--blue:focus,
-.btn--blue:active:focus {
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:focus,
+.btn-blue:active:focus {
   background-color: #5897d1;
   border-color: #5897d1;
   color: #ffffff;
 }
 
-.btn--yellow {
+.btn-yellow {
   color: #ffffff;
   background-color: #fbc52c;
   border-color: #fbc52c;
 }
 
-.btn--yellow:hover,
-.btn--yellow:active,
-.btn--yellow:focus,
-.btn--yellow:active:focus {
+.btn-yellow:hover,
+.btn-yellow:active,
+.btn-yellow:focus,
+.btn-yellow:active:focus {
   background-color: #D4A526;
   border-color: #D4A526;
   color: #ffffff;
@@ -80,7 +82,7 @@ button[type="submit"] {
   margin-bottom: 30px;
 }
 
-.meals-container button {
+#meals-container button {
   margin-top: 0;
   margin-bottom: 20px;
   margin-right: auto;
@@ -88,7 +90,7 @@ button[type="submit"] {
 }
 
 /* full width images */
-.dog-image-container {
+#dog-image-container {
   height: 50vh;
   background-image: url("../images/background/bottom-image.jpg");
   background-attachment: fixed;
@@ -98,7 +100,7 @@ button[type="submit"] {
 }
 
 /*Transparency code snippet taken from: https://www.w3schools.com/css/css_image_transparency.asp*/
-.two-dogs-image-container {
+#two-dogs-image-container {
   height: 40vh;
   background-image: url("../images/background/two-happy-dogs.jpg");
   background-attachment: fixed;
@@ -130,140 +132,6 @@ button[type="submit"] {
 
 .navbar .navbar-nav a {
   font-size: 125%;
-}
-
-/* Home Page: Landing Area */
-/* Added margin-top to stop landing image from disappearing under navbar and to simulate spacing with the help of Anthony from the Slack communitt */
-/* Basic code taken from CSS tricks (Perfect Background Image): https://css-tricks.com/perfect-full-page-background-image/ and modified */
-.landing-container {
-  height: 90Vh;
-  width: 100%;
-  background: url("../images/background/typ-background-image-mobile.jpg") no-repeat center center fixed;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-}
-
-@media screen and (min-width:768px) {
-  .landing-container {
-    background: url("../images/background/typ-background-image-small.jpeg") no-repeat center center fixed;
-    background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .landing-container {
-    margin-top: 70px;
-    background: url("../images/background/treat-your-pup-desktop-background.jpg") no-repeat bottom right fixed;
-    background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-}
-
-.jumbotron {
-  background-color: rgba(220, 220, 220, 0.8)
-}
-
-@media screen and (min-width: 1300px) {
-  .jumbotron {
-    background-color: transparent;
-  }
-}
-
-.landing-header {
-  margin-bottom: 10px;
-}
-
-/* Home Page: Benefits */
-.benefits-container {
-  margin: 30px auto;
-}
-
-.benefit h3 {
-  margin-top: 30px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-/* Home Page: Veterinarian Review Section */
-.vet-container {
-  background-color: rgba(220, 220, 220, 0.8)
-}
-
-.vet-image-mobile {
-  display: block;
-  margin: 30px auto 0 auto;
-}
-
-.vet-image-large {
-  display: block;
-  margin: auto;
-}
-
-.vet-review {
-  margin: auto 20px;
-}
-
-.vet-review h2 {
-  margin-bottom: 30px;
-}
-
-/* Home Page: What is and isn't included */
-.included-container {
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.item p {
-  margin-bottom: 30px;
-}
-
-.item h3 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.fa-times {
-  color: #E62329;
-}
-
-.fa-check {
-  color: #0C9559;
-}
-
-/* Home Page: Customer reviews */
-.reviews-container {
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.review {
-  margin: 30px auto;
-}
-
-.review p {
-  font-weight: light;
-}
-
-.review-image {
-  margin: 0 auto;
 }
 
 /* Footer */
@@ -377,6 +245,141 @@ This makes the phone icon appear more normal. */
 .fa-phone {
   transform: rotate(90deg);
 }
+
+/* Home Page: Landing Area */
+/* Added margin-top to stop landing image from disappearing under navbar and to simulate spacing with the help of Anthony from the Slack communitt */
+/* Basic code taken from CSS tricks (Perfect Background Image): https://css-tricks.com/perfect-full-page-background-image/ and modified */
+#landing-container {
+  height: 90Vh;
+  width: 100%;
+  background: url("../images/background/typ-background-image-mobile.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+@media screen and (min-width:768px) {
+  #landing-container {
+    background: url("../images/background/typ-background-image-small.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #landing-container {
+    margin-top: 70px;
+    background: url("../images/background/treat-your-pup-desktop-background.jpg") no-repeat bottom right fixed;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+#jumbotron {
+  background-color: rgba(220, 220, 220, 0.8)
+}
+
+@media screen and (min-width: 1300px) {
+  #jumbotron {
+    background-color: transparent;
+  }
+}
+
+#landing-header {
+  margin-bottom: 10px;
+}
+
+/* Home Page: Benefits */
+#benefits-container {
+  margin: 30px auto;
+}
+
+.benefit h3 {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Home Page: Veterinarian Review Section */
+#vet-container {
+  background-color: rgba(220, 220, 220, 0.8)
+}
+
+#vet-image-mobile {
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+#vet-image-large {
+  display: block;
+  margin: auto;
+}
+
+#vet-review {
+  margin: auto 20px;
+}
+
+.vet-review h2 {
+  margin-bottom: 30px;
+}
+
+/* Home Page: What is and isn't included */
+#included-container {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item p {
+  margin-bottom: 30px;
+}
+
+.item h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.fa-times {
+  color: #E62329;
+}
+
+.fa-check {
+  color: #0C9559;
+}
+
+/* Home Page: Customer reviews */
+#reviews-container {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.review {
+  margin: 30px auto;
+}
+
+.review p {
+  font-weight: light;
+}
+
+.review-image {
+  margin: 0 auto;
+}
+
 
 /*----- Contact Page --- */
 
