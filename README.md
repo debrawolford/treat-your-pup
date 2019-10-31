@@ -170,24 +170,27 @@ Treat Your Pup has been built with the help of Atom, a desktop code editor. It h
 
 ### Deploying the website from GitHub
 
-To deploy the website from its GitHub Repository these steps need to be taken:
+To deploy the website from its GitHub Repository I took these steps:
 
-1. Login to Github
-2. Search for the following repository: debrawolford/treat-your-pup
-3. Scroll to <i>Settings</i> and then to the <i>Pages</i> section.
-4. Under <i>Source</i>, click on the dropdown menu and select <i>Master Branch</i>
-5. When the page is refreshed, the repository will be deployed.
-6. The deployment link can then be found under the <i>GitHub Pages</i> section with the following text:
+1. Logged in to Github
+2. Navigated to the repository from the Github Dashboard
+3. Scrolled to the <i>Settings</i> icon and then down to the <i>Github Pages</i> section
+4. Under <i>Source</i>, clicked on the dropdown menu and selected <i>Master Branch</i>
+5. When <i>Master Branch</i> was selected, the page needed to be refreshed
+6. The link to website could then be found under the <i>GitHub Pages</i> section with the following text:
  "Your site is published at https://debrawolford.github.io/treat-your-pup/"
 
 ### Cloning the repository
 
+Take the following steps to clone the website:
+
 1. Navigate to the repository from the Github Dashboard.
-2. Select the green button that says "Clone or download"
-3. Click on the icon to the right of the URL to copy it.
+2. Select the green button in the top right of the screen that says "Clone or download"
+3. Click on the clipboard icon to the right of the URL to copy it.
 4. Open an Integrated Development Environment (IDE) and head over to the terminal.
 5. Change the directory to where you want to clone the repository to.
 6. Paste the URL that you copied in step 3 and select "Ok".
+7. The site will then be cloned.
 
 ## Credits
 
