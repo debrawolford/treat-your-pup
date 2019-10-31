@@ -1,5 +1,5 @@
 # <i>Treat Your Pup</i> - Milestone Project 1 for Code Institute
-<img src="assets/images/treat-your-pup-logo.png" text-align="center">
+<img src="assets/images/treat-your-pup-logo.png">
 <br>
 Treat Your Pup was created using the skills learned during the first three modules of the Full Stack Web Development course. The goal of this project was to create a mobile-first fully responsive website using HTML, CSS, and Bootstrap.
 
@@ -7,7 +7,7 @@ This website is designed for people who want to feed their dogs healthy and fres
 
 ## UX Design
 
-<a href="https://github.com/debrawolford/treat-your-pup/blob/master/assets/ux-design/ux-design-for-treat-your-pup.pdf">Click here </a> to see the wireframes for this project.
+<a href="https://github.com/debrawolford/treat-your-pup/tree/master/assets/ux-design/Wireframes">Click here </a> to see all the wireframes for this project.
 
 <a href="https://github.com/debrawolford/treat-your-pup/blob/master/assets/ux-design/ux-design-for-treat-your-pup.pdf">Click here </a> to read the complete UX Design report for this project. Below is a shorter summary of the UX Design report.
 
@@ -50,6 +50,14 @@ Regulations, Privacy Policy, Data Security, Veterinary Accreditation, Return Pol
 ### The Structure Plane
 
 The website will have a traditional navigation bar at the top of each page with the common "Tree Structure". There will be the Home page (index.html), See Meals, Contact Us, FAQ, and a Log In as part of the navigation. On the right side there will be a trial button for first-time customers. This nav bar will collapse into a "hamburger" icon on smaller devices to clear up screen space and bring familiarity to the website as it is common practice on other sites.
+
+### The Skeleton Frame
+
+Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/assets/ux-design/Wireframes">Click here </a> to see all the wireframes for this project.
+
+<img src="assets/ux-design/wireframes/home-page-typ.png">
+<img src="assets/ux-design/wireframes/home-page-mobile.png">
+<img src="assets/ux-design/wireframes/tablet-homepage.png">
 
 ## Features
 
@@ -101,18 +109,18 @@ Currently the website has been tested in both Google Chrome and Safari. Everythi
 
 - Modal form: Same as contact form, except submit button does not create a pop-up or link to another page yet.
 
--Navigation bar and Footer:
+- Navigation bar and Footer:
 1. Tried selecting all options while on the Home page to see if they lead to the corresponding pages: success
 2. Tried selecting all options while on the Meals page to see if they lead to the corresponding pages: success
 3. Tried selecting all options while on the FAQ page to see if they lead to the corresponding pages: success
 4. Tried selecting all options while on the Contact Us page to see if they lead to the corresponding pages: success
 
--Social buttons:
+- Social buttons:
 1. When selecting Facebook icon it directs to facebook.com.
 2. When selecting Instagram icon it directs to instagram.com.
 3. When selecting Twitter icon it directs to twitter.com
 
--Order Meals:
+- Order Meals:
 1. Clicked on "See Meals"
 2. Clicked on any order button on the page.
 3. Confirmed that "Sorry! " message pops up when trying to order.
