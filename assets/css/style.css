@@ -228,7 +228,9 @@ button[type="submit"] {
 }
 
 .reviews-container {
-  margin-top: 30px auto 0 auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ------------------- Heading */
