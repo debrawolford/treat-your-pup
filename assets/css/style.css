@@ -90,7 +90,7 @@ button[type="submit"] {
 }
 
 /* full width images */
-#dog-image-container {
+.dog-image-container {
   height: 50vh;
   background-image: url("../images/background/bottom-image.jpg");
   background-attachment: fixed;
@@ -384,7 +384,7 @@ margin: auto;
 
 /*Contact Container is pushed down from the top to keep the fixed navbar
 from covering it. */
-.contact-container {
+#contact-container {
   display: block;
   margin-top: 70px;
 }
@@ -410,7 +410,7 @@ The second media query is in order to keep the form from spreading too
 wide on larger screens. */
 
 @media screen and (min-width: 768px) {
-  .contact-container {
+  #contact-container {
     background: url("../images/background/bottom-image.jpg") no-repeat center center fixed;
     background-size: cover;
   }
