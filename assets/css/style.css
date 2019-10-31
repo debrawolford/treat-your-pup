@@ -102,12 +102,10 @@ header {
 
 /* ------------------- Landing Area */
 
-/* Added margin-top to stop landing image from disappearing under navbar and to simulate spacing */
+/* Added margin-top to stop landing image from disappearing under navbar and to simulate spacing with the help of Anthony from the Slack communitt */
 .landing-container {
-  margin-top: 70px;
   height: 90Vh;
   width: 100%;
-  max-width: 1400px;
   background: url("../images/background/typ-background-image-mobile.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -131,6 +129,7 @@ header {
 
 @media screen and (min-width: 1100px) {
   .landing-container {
+    margin-top: 70px;
     background: url("../images/background/treat-your-pup-desktop-background.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -323,6 +322,7 @@ footer a {
 /*----- Contact Page --- */
 .contact-container {
   display: block;
+  margin-top: 70px;
 }
 
 @media screen and (min-width: 768px) {

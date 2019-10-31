@@ -7,7 +7,33 @@ This website is designed for people who want to feed their dogs healthy and fres
 
 ## UX Design
 
-<a href="https://github.com/debrawolford/treat-your-pup/blob/master/assets/ux-design/ux-design-for-treat-your-pup.pdf">Click here </a> to read the full UX Design report and see the wireframes for this project.
+<a href="https://github.com/debrawolford/treat-your-pup/blob/master/assets/ux-design/ux-design-for-treat-your-pup.pdf">Click here </a> to see the wireframes for this project.
+
+<a href="https://github.com/debrawolford/treat-your-pup/blob/master/assets/ux-design/ux-design-for-treat-your-pup.pdf">Click here </a> to read the complete UX Design report for this project. Below is a shorter summary of the UX Design report.
+
+### The Strategy Plane
+
+- The primary business goals are to offer customers a straight-forward and trustworthy buying/registration experience and create a returning customer base.
+
+- The primary audience is dog parents who want to feed their dogs healthy, fresh meals but don't have time to cook every day for them. The audience will most likely primarily be people with full-time jobs ranging in age from early 20's to late 40's.
+
+#### 	What does a user expect?
+
+(a) What is this/does it have what I want?
+		Company name logo will be on all pages. When going to the "See Meals" page there will be detailed information on the ingredients in each type of meal. Social Section at bottom of homepage with posts tagged #treatyourpup so potential customers can see the meals in action.
+(b) How can find out more?
+		Have an FAQ page accessible via the nav bar at the top
+(c) How can I contact someone?
+		Have contact details in the footer, the phone number at the top of the page, and a complete contact page with a form.
+(d) What actions are available?
+		Options such as: Order Now, One Week Trial, Find Out More, Look at user testimonies.
+(e) Can I trust this website?
+		The Social Sharing, vet testimony and contact sections should offer a level of trust
+#### Importance vs. Feasibility
+
+<img src="assets/ux-design/importance-vs-feasibility.png">
+
+### The Scope Plane
 
 ## Features
 
@@ -121,3 +147,5 @@ Thanks to my mentor, Dick Vlaanderen for offering irreplaceable guidance and adv
 Thanks to Mark Otto and Jacob Thornton for initially creating Bootstrap, which helped me immensely with the building blocks of the website.
 
 Thanks to my dog, Teddy, who patiently waits for me to cook for him daily and inspiring me to create this fictitious company.
+
+Thanks to Anthony from the Slack Community for helping me with a couple of image spacing issues towards the end of the project. The part that he helped me on has been noted in css.
