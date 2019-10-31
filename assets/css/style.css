@@ -427,25 +427,21 @@ wide on larger screens. */
 
 /* The styling for the Meals Page is mainly padding and margins
 in order to center the content and space everything out.  */
-.main-content {
-  padding-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.meals-container .media {
+#meals-container .media {
   padding-bottom: 20px;
 }
 
-.meals-plain {
+#meals-plain {
   padding-bottom: 40px;
 }
 
-.meals-special {
+#meals-special {
   padding-bottom: 40px;
 }
 
-.meals-container h2 {
+#meals-container h2 {
+  margin-top: 20px;
   margin-bottom: 30px;
   background-color: rgba(220, 220, 220, 0.8);
 }
