@@ -1,5 +1,5 @@
 # <i>Treat Your Pup</i> - Milestone Project 1 for Code Institute
-<img src="assets/images/treat-your-pup-logo.png">
+<img src="assets/images/treat-your-pup-logo.png" text-align="center">
 <br>
 Treat Your Pup was created using the skills learned during the first three modules of the Full Stack Web Development course. The goal of this project was to create a mobile-first fully responsive website using HTML, CSS, and Bootstrap.
 
@@ -31,9 +31,25 @@ This website is designed for people who want to feed their dogs healthy and fres
 		The Social Sharing, vet testimony and contact sections should offer a level of trust
 #### Importance vs. Feasibility
 
-<img src="assets/ux-design/importance-vs-feasibility.png">
+<img src="assets/ux-design/importance-vs-feasibility.png" text-align="center">
 
 ### The Scope Plane
+
+#### What does the user say they need?
+
+A professional, straightforward website will all the relevant information they need to trust the product for their dog. An area where they can see what people are saying about the product on social media and an easy to access contact section in case they have any concerns.
+
+#### What does the user actually need?
+
+A mobile first website that will allow users to easily navigate the website on all screen sizes. A log in section to make orders for returning customers easier. Transparency on the sourcing of ingredients and manufacturing process.
+
+#### What doesn't the user know that they need?
+
+Regulations, Privacy Policy, Data Security, Veterinary Accreditation, Return Policy in case they or their dogs are not satisfied with the product.
+
+### The Structure Plane
+
+The website will have a traditional navigation bar at the top of each page with the common "Tree Structure". There will be the Home page (index.html), See Meals, Contact Us, FAQ, and a Log In as part of the navigation. On the right side there will be a trial button for first-time customers. This nav bar will collapse into a "hamburger" icon on smaller devices to clear up screen space and bring familiarity to the website as it is common practice on other sites.
 
 ## Features
 
@@ -75,10 +91,10 @@ This website is designed for people who want to feed their dogs healthy and fres
 
 Chrome Developer Tools was used the entirety of my project to test out how the website rendered on different viewports/devices. By using the device selector I went through each screen size to confirm that everything looked correct each time. If something wasn't rendering properly, I would first edit the code within Chrome Developer to see my changes as I typed them. Once the issue was resolved, I would add it to my code in Atom.
 
-Currently the website has been tested in both Google Chrome and Safari. Everything renders well on Safari for desktop, but on Safari for mobile the background image at the top of the home page is pushing too far to the left and only shows a grey background. In Google Chrome for desktop there is an issue with the top of the same background image being cut off and looking strange. A large amount of time has gone into fixing both issues, so for now I have decided to let it be until a future time.
+Currently the website has been tested in both Google Chrome and Safari. Everything renders well on Safari for desktop, but on Safari and Google Chrome for mobile the background image at the top of the home page isn't showing up. In Google Chrome for desktop there was an issue with the top of the same background image being cut off by the navbar and looking strange. But with the help of Anthony from the Slack community the navbar issue has been resolved. Unfortunately, even after resizing the mobile images and making sure the files weren't too large, the image is still not appearing on mobile.
 
 - Contact Form:
-1. Click on "Contact Us"
+1. Clicked on "Contact Us"
 2. Tried submitting the form empty but received an error message asking to fill in data.
 3. Tried to submit the form by filling in something other than an email address in the email form but received an error message asking me to put in a valid email address
 4. Tried submitting form with all fields filled in correctly and received the pop up message.
@@ -86,10 +102,10 @@ Currently the website has been tested in both Google Chrome and Safari. Everythi
 - Modal form: Same as contact form, except submit button does not create a pop-up or link to another page yet.
 
 -Navigation bar and Footer:
-1. Try selecting all options while on the Home page to see if they lead to the corresponding pages: success
-2. Try selecting all options while on the Meals page to see if they lead to the corresponding pages: success
-3. Try selecting all options while on the FAQ page to see if they lead to the corresponding pages: success
-4. Try selecting all options while on the Contact Us page to see if they lead to the corresponding pages: success
+1. Tried selecting all options while on the Home page to see if they lead to the corresponding pages: success
+2. Tried selecting all options while on the Meals page to see if they lead to the corresponding pages: success
+3. Tried selecting all options while on the FAQ page to see if they lead to the corresponding pages: success
+4. Tried selecting all options while on the Contact Us page to see if they lead to the corresponding pages: success
 
 -Social buttons:
 1. When selecting Facebook icon it directs to facebook.com.
@@ -97,10 +113,10 @@ Currently the website has been tested in both Google Chrome and Safari. Everythi
 3. When selecting Twitter icon it directs to twitter.com
 
 -Order Meals:
-1. Click on "See Meals"
-2. Click on any order button on the page.
-3. See if "Sorry! " message pops up when trying to order.
-4. Repeat for all "Order" buttons on the page.
+1. Clicked on "See Meals"
+2. Clicked on any order button on the page.
+3. Confirmed that "Sorry! " message pops up when trying to order.
+4. Repeated for all "Order" buttons on the page.
 
 W3C Markup Validation was used to ensure that all of the HTML and CSS code matches industry standards.
 
@@ -123,6 +139,28 @@ W3C Markup Validation was used to ensure that all of the HTML and CSS code match
 
 ## Deployment
 
+Treat Your Pup has been built with the help of Atom, a desktop code editor. It has been committed to Git and Pushed to GitHub using packages within Atom.
+
+### Deploying the website from GitHub
+
+To deploy the website from its GitHub Repository these steps need to be taken:
+
+1. Login to Github
+2. Search for the following repository: debrawolford/treat-your-pup
+3. Scroll to <i>Settings</i> and then to the <i>Pages</i> section.
+4. Under <i>Source</i>, click on the dropdown menu and select <i>Master Branch</i>
+5. When the page is refreshed, the repository will be deployed
+6. The deployment link can then be found under the <i>GitHub Pages</i> section with the following text:
+ "Your site is published at https://debrawolford.github.io/treat-your-pup/"
+
+### Cloning the repository
+
+1. Navigate to the repository from the Github Dashboard
+2. Select the green button that says "Clone or download"
+3. Click on the icon to the right of the URL to copy it.
+4. Open an Integrated Development Environment (IDE) and head over to the terminal.
+5. Change the directory to where you want to clone the repository to.
+6. Paste the URL that you copied in step 3 and select "Ok".
 
 ## Credits
 
