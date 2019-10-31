@@ -131,12 +131,12 @@ to ensure that the images are fixed to the background. */
 
 .navbar-brand {
   font-family: 'Dancing Script', cursive;
-  font-size: 200%;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .navbar .navbar-nav a {
-  font-size: 125%;
+  font-size: 20px;
 }
 
 /* Footer */
@@ -157,7 +157,7 @@ footer {
 
 .footer-contact h4 {
   font-family: 'Dancing Script', cursive;
-  font-size: 200%;
+  font-size: 30px;
   font-weight: bold;
 }
 
