@@ -54,13 +54,10 @@ The website will have a traditional navigation bar at the top of each page with 
 ### The Skeleton Frame
 
 Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/assets/ux-design/Wireframes">Click here </a> to see all the wireframes for this project.
-#### Desktop:
 
 <img src="assets/ux-design/Wireframes/home-page-typ.png">
-#### Tablet:
 
 <img src="assets/ux-design/Wireframes/tablet-homepage.png">
-#### Mobile:
 
 <img src="assets/ux-design/Wireframes/home-page-mobile.png">
 
