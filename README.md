@@ -14,7 +14,7 @@ Here is a link to the live preview: https://debrawolford.github.io/treat-your-pu
 
 ## UX Design
 
-<a href="https://github.com/debrawolford/treat-your-pup/tree/master/ux-design/Wireframes">Click here </a> to see all the wireframes for this project.
+<a href="https://github.com/debrawolford/treat-your-pup/tree/master/ux-design/wireframes">Click here </a> to see all the wireframes for this project.
 
 <a href="https://github.com/debrawolford/treat-your-pup/blob/master/ux-design/project-design-process.pdf">Click here </a> to read the complete UX Design report for this project. Below is a shorter summary of the UX Design report.
 
@@ -62,7 +62,7 @@ The website will have a traditional navigation bar at the top of each page with 
 
 ### The Skeleton Frame
 
-Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/assets/ux-design/Wireframes">Click here </a> to see all the wireframes for this project.
+Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/ux-design/wireframes">Click here </a> to see all the wireframes for this project.
 <p align="center">
 <img src="ux-design/Wireframes/home-page-typ.png">
 
@@ -95,18 +95,24 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 ## Technologies Used
 
 
-- HTML5: This was the language used to add all the content to the pages.
-- CSS3: Cascading Style Sheets language used to style all the pages and improve the user experience.
-- <a href="https://www.getbootstrap.com">Bootstrap version 4.3</a>: Used for initial styling and in order to create a uniform website that renders well on all screen sizes. Also used for some basic Javascript additions.
-- <a href="https://www.pixabay.com">Pixabay</a>: Free online images. Used for all images on website other than logo.
-- <a href="https://www.canva.com"> Canva </a>: Used to resize images an create logo.
+- HTML: This was the language used to add all the content to the pages.
+- CSS: Cascading Style Sheets language used to style all the pages and improve the user experience.
+- <a href="https://www.getbootstrap.com">Bootstrap version</a>: Used for initial styling and in order to create a uniform website that renders well on all screen sizes. Also used for some basic Javascript additions.
 - <a href="https://www.atom.io"> Atom</a>: The code editor used for this project.
 - <a href="https://git-scm.com"> Git</a>: Installed on Atom as a plugin to allow version control.
-- <a href="https://www.github.com"> Github</a>: Used to host the repositories for this project and the live website preview.
-- <a href="https://colorsupplyyy.com/app/"> Color Picker</a>: The two colors used on this website were matched together using this website.
-- <a href="https://balsamiq.com/"> Balsamiq Mockups 3</a>: Used to create the wireframes during the UX Design process.
+- <a href="https://balsamiq.com/"> Balsamiq Mockups </a>: Used to create the wireframes during the UX Design process.
 - Chrome Developer Tools: Used to test the website while developing.
 - <a href="https://autoprefixer.github.io/"> Autoprefixer</a>: Added vendor prefixes to CSS for different browsers.
+- <a href="https://jigsaw.w3.org/css-validator/"> W3C Markup Validation Jigsaw</a>: To validate the CSS code.
+- <a href="https://validator.w3.org/"> W3C Markup Validation</a>: To validate the HTML code.
+
+### Tools
+
+- <a href="https://www.pixabay.com">Pixabay</a>: Free online images. Used for all images on website other than logo.
+- <a href="https://colorsupplyyy.com/app/"> Color Picker</a>: The two colors used on this website were matched together using this website.
+- <a href="https://www.github.com"> Github</a>: Used to host the repositories for this project and the live website preview.
+- <a href="https://www.canva.com"> Canva </a>: Used to resize images an create logo.
+
 
 ## Testing
 
