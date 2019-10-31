@@ -1,9 +1,14 @@
-# <i>Treat Your Pup</i> - Milestone Project 1 for Code Institute
+<p align="center">
 <img src="assets/images/treat-your-pup-logo.png">
-<br>
+</p>
+# <i>Treat Your Pup</i> - Milestone Project 1 for Code Institute
+
 Treat Your Pup was created using the skills learned during the first three modules of the Full Stack Web Development course. The goal of this project was to create a mobile-first fully responsive website using HTML, CSS, and Bootstrap.
 
 This website is designed for people who want to feed their dogs healthy and fresh meals but might not have the time to do so every day. The website is built with a simple and straightforward design to make the buying process as quick as possible for customers. People are able to contact the company with questions through a contact form, and can sign up to get a 10% discount on their first order.
+
+Here is a link to the repository: https://github.com/debrawolford/treat-your-pup.git
+Here is a link to the live preview:
 
 ## UX Design
 
@@ -54,12 +59,13 @@ The website will have a traditional navigation bar at the top of each page with 
 ### The Skeleton Frame
 
 Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/assets/ux-design/Wireframes">Click here </a> to see all the wireframes for this project.
-
+<p align="center">
 <img src="assets/ux-design/Wireframes/home-page-typ.png">
 
 <img src="assets/ux-design/Wireframes/tablet-homepage.png">
 
 <img src="assets/ux-design/Wireframes/home-page-mobile.png">
+</p>
 
 ## Features
 
