@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato:300,400,700&display=swap');
+
 html {
   min-height: 100%;
 }
+
+/* Lato chosen as font-family for entire site
+to give a minimalistic look */
 
 body {
   font-family: 'Lato', sans-serif;
@@ -16,8 +21,9 @@ header {
   padding-right: 0;
 }
 
-/* standard a links for the entire site styled with the #6bb8ff color
-to make colors uniform and text-decoration set to none */
+/* standard <a> links for the entire site styled with the #6bb8ff color
+to make colors uniform and text-decoration set to none
+to keep away the outdated underline style */
 
 a {
   color: #6bb8ff;
