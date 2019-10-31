@@ -239,23 +239,27 @@ button[type="submit"] {
   margin-bottom: 30px;
 }
 
-.no-x {
+.fa-times {
   color: #E62329;
 }
 
-.checkmark {
+.fa-check {
   color: #0C9559;
 }
 
 /* ------------------- Home Page: Customer reviews */
-.review {
-  margin: 30px auto;
-}
-
 .reviews-container {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.review {
+  margin: 30px auto;
+}
+
+.review p {
+  font-weight: light;
 }
 
 /* ------------------- Heading */
