@@ -100,7 +100,7 @@ button[type="submit"] {
 }
 
 /*Transparency code snippet taken from: https://www.w3schools.com/css/css_image_transparency.asp*/
-#two-dogs-image-container {
+.two-dogs-image-container {
   height: 40vh;
   background-image: url("../images/background/two-happy-dogs.jpg");
   background-attachment: fixed;
@@ -452,12 +452,13 @@ in order to center the content and space everything out.  */
 
 /*---- FAQ Page ---*/
 
-.faq-container {
+#faq-container {
   margin-top: 60px;
 }
 
-.faq-container h2 {
+#faq-container h2 {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .col-12 ul {
@@ -469,7 +470,7 @@ in order to center the content and space everything out.  */
   list-style: none
 }
 
-.faq-container h3 {
+#faq-container h3 {
   background-color: rgba(220, 220, 220, 0.8);
 }
 
