@@ -16,6 +16,18 @@ header {
   padding-right: 0;
 }
 
+/* standard a links for the entire site styled with the #6bb8ff color 
+to make colors uniform and text-decoration set to none */
+
+a {
+  color: #6bb8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 /* ------------------- Buttons */
 .btn--cta {
   border-radius: 23px;
@@ -60,6 +72,13 @@ header {
 button[type="submit"] {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.meals-container button {
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* ------------------- full width images */
@@ -264,6 +283,35 @@ footer {
   font-size: 18px;
   margin-top: 20px;
 }
+/* text-decoration property added after the suggestion from Anna_G in the Slack community
+that the underline when hovering is outdated */
+
+footer a {
+  color: #000000;
+}
+.footer-contact a {
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-contact a:hover {
+  color: #fbc52c
+}
+
+.footer-nav a {
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-nav a:hover {
+  color: #fbc52c
+}
 
 .footer-nav {
   line-height: 3pt;
@@ -279,17 +327,6 @@ footer {
 }
 
 
-.footer-nav a {
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-}
-
-.footer-nav a:hover {
-  color: #fbc52c
-}
-
 .footer-social {
   font-size: 18px;
   color: #000000;
@@ -303,7 +340,8 @@ footer {
   margin-bottom: 20px;
 }
 
-/* Icon transitions code based on Resume Mini Project*/
+/* Icon transitions code based on Resume Mini Project to make the icons in the footer transition
+smoothly and match the rest of the page style*/
 .footer-social li a i {
   font-size: 35px;
   line-height: 10px;
@@ -321,21 +359,13 @@ footer {
   color: #fbc52c
 }
 
-footer a {
-  color: #000000;
-}
-
 /*----- Contact Page --- */
+
+/*Contact Container is pushed down from the top to keep the fixed navbar
+from covering it. */
 .contact-container {
   display: block;
   margin-top: 70px;
-}
-
-@media screen and (min-width: 768px) {
-  .contact-container {
-    background: url("../images/background/bottom-image.jpg") no-repeat center center fixed;
-    background-size: cover;
-  }
 }
 
 .contact-heading {
@@ -353,6 +383,18 @@ footer a {
   margin: 0 auto;
 }
 
+/* There is a media query for screens larger than 768px to keep
+the background image of the dog from appearing on smaller screens.
+The second media query is in order to keep the form from spreading too
+wide on larger screens. */
+
+@media screen and (min-width: 768px) {
+  .contact-container {
+    background: url("../images/background/bottom-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .center-form {
     max-width: 60%;
@@ -361,6 +403,9 @@ footer a {
 }
 
 /*----- Meals Page ----*/
+
+/* The styling for the Meals Page is mainly padding and margins
+in order to center the content and space everything out.  */
 .main-content {
   padding-top: 10px;
   margin-left: auto;
@@ -369,13 +414,6 @@ footer a {
 
 .meals-container .media {
   padding-bottom: 20px;
-}
-
-.meals-container button {
-  margin-top: 0;
-  margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .meals-plain {
@@ -410,4 +448,8 @@ footer a {
 
 .faq-container h3 {
   background-color: rgba(220, 220, 220, 0.8);
+}
+
+.faq-question {
+  color: #6bb8ff
 }
