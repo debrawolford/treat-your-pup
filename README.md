@@ -179,7 +179,9 @@ To deploy the website from its GitHub Repository these steps need to be taken:
 
 Both the idea of having a large background image and a pop up modal for the 10% discount modal came from the "Whiskey Drop" mini project. The background image code was modified to fit the style of Treat Your Pup. The initial modal code was taken from Bootstrap and then modified to become a sign-up pop-up.
 
-The initial code for the background image was copied from <a href="https://css-tricks.com/perfect-full-page-background-image/"> CSS Tricks</a> and modified to work with the image used on the site.
+The initial code for the background image was taken from <a href="https://css-tricks.com/perfect-full-page-background-image/"> CSS Tricks</a> and modified to work with the image used on the site.
+
+The transparency CSS property for the image of the two dogs on the FAQ page was taken from <a href="https://www.w3schools.com/css/css_image_transparency.asp">W3schools</a>.
 
 The hover transitions were used with the guidance of the "Whiskey Drop" mini project and once again adjusted to fit the style of Treat Your Pup.
 

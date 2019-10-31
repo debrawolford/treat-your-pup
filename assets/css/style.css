@@ -57,6 +57,11 @@ header {
   color: #ffffff;
 }
 
+button[type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 /* ------------------- full width images */
 .dog-image-container {
   height: 50vh;
@@ -67,6 +72,7 @@ header {
   max-width: 100%;
 }
 
+/*Transparency code snippet taken from: https://www.w3schools.com/css/css_image_transparency.asp*/
 .two-dogs-image-container {
   height: 40vh;
   background-image: url("../images/background/two-happy-dogs.jpg");
@@ -74,10 +80,12 @@ header {
   background-size: cover;
   background-position: center center;
   max-width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 0;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
 }
 
-/* ------------------- Navbar */
+/* ------------------- Navigation bar */
 .navbar {
   margin-bottom: 0;
   border: 0;
@@ -99,8 +107,9 @@ header {
   font-size: 125%;
 }
 
-/* ------------------- Landing Area */
+/* ------------------- Home Page: Landing Area */
 /* Added margin-top to stop landing image from disappearing under navbar and to simulate spacing with the help of Anthony from the Slack communitt */
+/* Basic code taken from CSS tricks (Perfect Background Image): https://css-tricks.com/perfect-full-page-background-image/ and modified */
 .landing-container {
   height: 90Vh;
   width: 100%;
@@ -110,8 +119,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 @media screen and (min-width:768px) {
@@ -122,8 +131,8 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
   }
 }
 
@@ -136,8 +145,8 @@ header {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -155,7 +164,7 @@ header {
   margin-bottom: 10px;
 }
 
-/*-------------------- Benefits */
+/*-------------------- Home Page: Benefits */
 .benefits-container {
   margin: 30px auto;
 }
@@ -166,7 +175,7 @@ header {
   margin-bottom: 30px;
 }
 
-/* ------------------- Vet Approved */
+/* ------------------- Home Page: Veterinarian Review Section */
 .vet-container {
   background-color: rgba(220, 220, 220, 0.8)
 }
@@ -189,19 +198,20 @@ header {
   margin-bottom: 30px;
 }
 
-/* ------------------- What is and isn't included */
+/* ------------------- Home Page: What is and isn't included */
 .included-container {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.item h3, p {
+.item p {
   margin-bottom: 30px;
 }
 
 .item h3 {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .no-x {
@@ -212,15 +222,13 @@ header {
   color: #0C9559;
 }
 
-/* ------------------- Reviews */
+/* ------------------- Home Page: Customer reviews */
 .review {
   margin: 30px auto;
 }
 
 .reviews-container {
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 30px auto 0 auto;
 }
 
 /* ------------------- Heading */
@@ -264,6 +272,11 @@ footer {
   margin-bottom: auto;
 }
 
+.footer-nav p {
+  padding-top: 10px;
+}
+
+
 .footer-nav a {
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -288,6 +301,7 @@ footer {
   margin-bottom: 20px;
 }
 
+/* Icon transitions code based on Resume Mini Project*/
 .footer-social li a i {
   font-size: 35px;
   line-height: 10px;
@@ -335,11 +349,6 @@ footer a {
   max-width: 80%;
   padding-top: 20px;
   margin: 0 auto;
-}
-
-button[type="submit"] {
-  margin-top: 20px;
-  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 992px) {
