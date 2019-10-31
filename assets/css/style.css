@@ -6,7 +6,6 @@ html {
 
 /* Lato chosen as font-family for entire site
 to give a minimalistic look */
-
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -24,7 +23,6 @@ header {
 /* standard <a> links for the entire site styled with the #6bb8ff color
 to make colors uniform and text-decoration set to none
 to keep away the outdated underline style */
-
 a {
   color: #6bb8ff;
   text-decoration: none;
@@ -169,12 +167,13 @@ footer {
   font-size: 18px;
   margin-top: 20px;
 }
+
 /* text-decoration property added after the suggestion from Anna_G in the Slack community
 that the underline when hovering is outdated */
-
 footer a {
   color: #000000;
 }
+
 .footer-contact a {
   text-decoration: none;
   transition: all 0.35s ease-in-out;
@@ -212,7 +211,6 @@ footer a {
   padding-top: 10px;
 }
 
-
 .footer-social {
   font-size: 18px;
   color: #000000;
@@ -249,7 +247,7 @@ smoothly and match the rest of the page style*/
 /* Added due to the suggestion from peer-review on slack.
 This makes the phone icon appear more "normal". */
 .fa-phone {
-  transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 /* Home Page: Landing Area
@@ -275,7 +273,6 @@ https://css-tricks.com/perfect-full-page-background-image/ and modified */
 
 /* Media queries created in order to change layout and
 main background image depending on screen size. */
-
 @media screen and (min-width:768px) {
   #landing-container {
     background: url("../images/background/typ-background-image-small.jpeg") no-repeat center center fixed;
@@ -320,7 +317,6 @@ main background image depending on screen size. */
 /* Home Page: Benefits
 Margins added for spacing and
 centering content.*/
-
 #benefits-container {
   margin: 30px auto;
 }
@@ -336,7 +332,6 @@ Background color set to the same gray as
 found on other parts of the website to keep
 uniformity. The rest of the styling is simply
 margins to center and space out the content. */
-
 #vet-container {
   background-color: rgba(220, 220, 220, 0.8)
 }
@@ -347,7 +342,7 @@ margins to center and space out the content. */
 }
 
 #vet-image-large {
-margin: auto;
+  margin: auto;
 }
 
 #vet-review {
@@ -361,7 +356,6 @@ margin: auto;
 /* Home Page: What is and isn't included
 Colors added to Font Awesome icons. Margins
 for spacing/centering content. */
-
 #included-container {
   margin-top: 30px;
   margin-left: auto;
@@ -388,7 +382,6 @@ for spacing/centering content. */
 /* Home Page: Customer Reviews
 Margins added to center content
 and offer spacing. */
-
 #reviews-container {
   margin-top: 30px;
   margin-left: auto;
@@ -408,7 +401,6 @@ The styling for the Meals Page is mainly padding and margins
 in order to center the content and space everything out.
 The background color for the heading is set to the same
 gray as the rest of the website.  */
-
 #meals-container .media {
   padding-bottom: 20px;
 }
@@ -431,7 +423,6 @@ gray as the rest of the website.  */
 Margin-top added to container to push below navbar. Other margins
 added to space content out nicely. Font and background color matched
 the rest of the website. */
-
 #faq-container {
   margin-top: 60px;
 }
@@ -459,7 +450,6 @@ the rest of the website. */
 }
 
 /* Contact Page  */
-
 /*Contact Container is pushed down from the top to keep the fixed navbar
 from covering it. */
 #contact-container {
@@ -486,7 +476,6 @@ from covering it. */
 the background image of the dog from appearing on smaller screens.
 The second media query is in order to keep the form from spreading too
 wide on larger screens. */
-
 @media screen and (min-width: 768px) {
   #contact-container {
     background: url("../images/background/bottom-image.jpg") no-repeat center center fixed;
