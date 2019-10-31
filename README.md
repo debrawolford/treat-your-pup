@@ -96,6 +96,7 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 - <a href="https://colorsupplyyy.com/app/"> Color Picker</a>: The two colors used on this website were matched together using this website.
 - <a href="https://balsamiq.com/"> Balsamiq Mockups 3</a>: Used to create the wireframes during the UX Design process.
 - Chrome Developer Tools: Used to test the website while developing.
+- <a href="https://autoprefixer.github.io/"> Autoprefixer</a>: Added vendor prefixes to CSS for different browsers.
 
 ## Testing
 
