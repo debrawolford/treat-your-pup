@@ -54,10 +54,12 @@ The website will have a traditional navigation bar at the top of each page with 
 ### The Skeleton Frame
 
 Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/assets/ux-design/Wireframes">Click here </a> to see all the wireframes for this project.
-
+#### Desktop:
 <img src="assets/ux-design/Wireframes/home-page-typ.png">
-<img src="assets/ux-design/Wireframes/home-page-mobile.png">
+#### Tablet:
 <img src="assets/ux-design/Wireframes/tablet-homepage.png">
+#### Mobile:
+<img src="assets/ux-design/Wireframes/home-page-mobile.png">
 
 ## Features
 
@@ -75,7 +77,7 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 
 ### Hopeful Future Features
 
-- Order page: At the moment when wanting to order any of the meals by selecting the order button, nothing happens. This will be updated in the future to include an order process.
+- Order page: At the moment when wanting to order any of the meals by selecting the order button, users get an error modal. This will be updated in the future to include an order process.
 - More FAQ answers: Currently there are only the most basic questions and answers. But as we learn what customers ask about we will start adding more questions and answers.
 - User Accounts: Due to a lack of knowledge in back end development there are no pages regarding user accounts yet. But the goal is to give customers the option to create an account in order to make future orders simpler and quicker.
 - I tried adding a modal letting the user know that their form had been submitted, but unfortunately it popped up even when the fields weren't filled out. So leaving this for a later date.
