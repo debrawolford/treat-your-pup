@@ -55,9 +55,9 @@ The website will have a traditional navigation bar at the top of each page with 
 
 Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/assets/ux-design/Wireframes">Click here </a> to see all the wireframes for this project.
 
-<img src="assets/ux-design/wireframes/home-page-typ.png">
-<img src="assets/ux-design/wireframes/home-page-mobile.png">
-<img src="assets/ux-design/wireframes/tablet-homepage.png">
+<img src="assets/ux-design/Wireframes/home-page-typ.png">
+<img src="assets/ux-design/Wireframes/home-page-mobile.png">
+<img src="assets/ux-design/Wireframes/tablet-homepage.png">
 
 ## Features
 
@@ -141,7 +141,7 @@ W3C Markup Validation was used to ensure that all of the HTML and CSS code match
 - Scrolls down to Mix and Match to choose multiple meals per dog.
 <i>(This could be improved in the future by offering a discount for people with multiple dogs)</i>
 
-2. Someone who works full-time and is rarely home during the day:
+3. Someone who works full-time and is rarely home during the day:
 - Selects FAQ page to find out about delivery
 - Scrolls down to Shipping and Delivery and sees that there is flexible delivery plans.
 
