@@ -176,13 +176,13 @@ To deploy the website from its GitHub Repository these steps need to be taken:
 2. Search for the following repository: debrawolford/treat-your-pup
 3. Scroll to <i>Settings</i> and then to the <i>Pages</i> section.
 4. Under <i>Source</i>, click on the dropdown menu and select <i>Master Branch</i>
-5. When the page is refreshed, the repository will be deployed
+5. When the page is refreshed, the repository will be deployed.
 6. The deployment link can then be found under the <i>GitHub Pages</i> section with the following text:
  "Your site is published at https://debrawolford.github.io/treat-your-pup/"
 
 ### Cloning the repository
 
-1. Navigate to the repository from the Github Dashboard
+1. Navigate to the repository from the Github Dashboard.
 2. Select the green button that says "Clone or download"
 3. Click on the icon to the right of the URL to copy it.
 4. Open an Integrated Development Environment (IDE) and head over to the terminal.

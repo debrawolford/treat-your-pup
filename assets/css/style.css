@@ -457,12 +457,12 @@ from covering it. */
   margin-top: 70px;
 }
 
-.contact-heading {
+#contact-heading {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.contact-subhead {
+#contact-subhead {
   margin-bottom: 20px;
 }
 
