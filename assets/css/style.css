@@ -444,6 +444,7 @@ in order to center the content and space everything out.  */
   margin-right: auto;
   max-width: 80%;
   line-height: 20pt;
+  list-style: none
 }
 
 .faq-container h3 {
