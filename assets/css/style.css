@@ -36,7 +36,9 @@ a:hover {
 
 /*  Buttons
 Any styling for buttons on the website can be
-found here */
+found here. Colors match the overal style of
+the website and added a hover effect to give
+users feedback.  */
 .btn-cta {
   border-radius: 23px;
   font-weight: bold;
@@ -89,7 +91,10 @@ button[type="submit"] {
   margin-left: auto;
 }
 
-/* full width images */
+/* full width images
+These images are background images on the home page,
+contact page, and FAQ page. The styling here is
+to ensure that the images are fixed to the background. */
 .dog-image-container {
   height: 50vh;
   background-image: url("../images/background/bottom-image.jpg");
@@ -221,7 +226,8 @@ footer a {
   margin-bottom: 20px;
 }
 
-/* Icon transitions code based on Resume Mini Project to make the icons in the footer transition
+/* Icon transitions code based on Resume Mini Project
+to make the icons in the footer transition
 smoothly and match the rest of the page style*/
 .footer-social li a i {
   font-size: 35px;
@@ -246,9 +252,13 @@ This makes the phone icon appear more "normal". */
   transform: rotate(90deg);
 }
 
-/* Home Page: Landing Area */
-/* Added margin-top to stop landing image from disappearing under navbar and to simulate spacing with the help of Anthony from the Slack communitt */
-/* Basic code taken from CSS tricks (Perfect Background Image): https://css-tricks.com/perfect-full-page-background-image/ and modified */
+/* Home Page: Landing Area
+Added margin-top to stop landing image from disappearing
+under navbar and to simulate spacing with the help of Anthony
+from the Slack community */
+/* Basic code for bg image taken from CSS tricks
+(Perfect Background Image):
+https://css-tricks.com/perfect-full-page-background-image/ and modified */
 #landing-container {
   height: 90Vh;
   width: 100%;
@@ -260,7 +270,11 @@ This makes the phone icon appear more "normal". */
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
+  margin-top: 70px;
 }
+
+/* Media queries created in order to change layout and
+main background image depending on screen size. */
 
 @media screen and (min-width:768px) {
   #landing-container {
@@ -303,7 +317,10 @@ This makes the phone icon appear more "normal". */
   margin-bottom: 10px;
 }
 
-/* Home Page: Benefits */
+/* Home Page: Benefits
+Margins added for spacing and
+centering content.*/
+
 #benefits-container {
   margin: 30px auto;
 }
@@ -314,7 +331,12 @@ This makes the phone icon appear more "normal". */
   margin-bottom: 30px;
 }
 
-/* Home Page: Veterinarian Review Section */
+/* Home Page: Veterinarian Review Section
+Background color set to the same gray as
+found on other parts of the website to keep
+uniformity. The rest of the styling is simply
+margins to center and space out the content. */
+
 #vet-container {
   background-color: rgba(220, 220, 220, 0.8)
 }
@@ -336,7 +358,10 @@ margin: auto;
   margin-bottom: 30px;
 }
 
-/* Home Page: What is and isn't included */
+/* Home Page: What is and isn't included
+Colors added to Font Awesome icons. Margins
+for spacing/centering content. */
+
 #included-container {
   margin-top: 30px;
   margin-left: auto;
@@ -360,7 +385,10 @@ margin: auto;
   color: #0C9559;
 }
 
-/* Home Page: Customer reviews */
+/* Home Page: Customer Reviews
+Margins added to center content
+and offer spacing. */
+
 #reviews-container {
   margin-top: 30px;
   margin-left: auto;
@@ -371,16 +399,66 @@ margin: auto;
   margin: 30px auto;
 }
 
-.review p {
-  font-weight: light;
-}
-
 .review-image {
   margin: 0 auto;
 }
 
+/* Meals Page
+The styling for the Meals Page is mainly padding and margins
+in order to center the content and space everything out.
+The background color for the heading is set to the same
+gray as the rest of the website.  */
 
-/*----- Contact Page --- */
+#meals-container .media {
+  padding-bottom: 20px;
+}
+
+#meals-plain {
+  padding-bottom: 40px;
+}
+
+#meals-special {
+  padding-bottom: 40px;
+}
+
+#meals-container h2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: rgba(220, 220, 220, 0.8);
+}
+
+/* FAQ Page
+Margin-top added to container to push below navbar. Other margins
+added to space content out nicely. Font and background color matched
+the rest of the website. */
+
+#faq-container {
+  margin-top: 60px;
+}
+
+#faq-container h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.col-12 ul {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  line-height: 20pt;
+  list-style: none
+}
+
+#faq-container h3 {
+  background-color: rgba(220, 220, 220, 0.8);
+}
+
+.faq-question {
+  color: #6bb8ff
+}
+
+/* Contact Page  */
 
 /*Contact Container is pushed down from the top to keep the fixed navbar
 from covering it. */
@@ -421,55 +499,4 @@ wide on larger screens. */
     max-width: 60%;
     min-height: 30vh;
   }
-}
-
-/*----- Meals Page ----*/
-
-/* The styling for the Meals Page is mainly padding and margins
-in order to center the content and space everything out.  */
-
-#meals-container .media {
-  padding-bottom: 20px;
-}
-
-#meals-plain {
-  padding-bottom: 40px;
-}
-
-#meals-special {
-  padding-bottom: 40px;
-}
-
-#meals-container h2 {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  background-color: rgba(220, 220, 220, 0.8);
-}
-
-/*---- FAQ Page ---*/
-
-#faq-container {
-  margin-top: 60px;
-}
-
-#faq-container h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.col-12 ul {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80%;
-  line-height: 20pt;
-  list-style: none
-}
-
-#faq-container h3 {
-  background-color: rgba(220, 220, 220, 0.8);
-}
-
-.faq-question {
-  color: #6bb8ff
 }
