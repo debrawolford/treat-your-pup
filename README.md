@@ -27,15 +27,25 @@ Here is a link to the live preview: https://debrawolford.github.io/treat-your-pu
 #### 	What does a user expect?
 
 (a) What is this/does it have what I want?
+
 		Company name will be on all pages. When going to the "See Meals" page there will be detailed information on the ingredients in each type of meal. Social Section at bottom of homepage with posts tagged #treatyourpup so potential customers can see the meals in action (this has not been implemented yet as the company does not have a following on Instagram).
+
 (b) How can find out more?
-		Have an FAQ page accessible via the nav bar at the top
+
+		Have an FAQ page accessible via the nav bar at the top.
+
 (c) How can I contact someone?
+
 		Have contact details in the footer, the phone number at the top of the page, and a complete contact page with a form.
+
 (d) What actions are available?
+
 		Options such as: Order Now, One Week Trial, Find Out More, Look at user testimonies.
+
 (e) Can I trust this website?
-		The Social Sharing, vet testimony and contact sections should offer a level of trust
+
+		The Social Sharing, vet testimony and contact sections should offer a level of trust.
+
 #### Importance vs. Feasibility
 
 <p align="center">
