@@ -32,6 +32,10 @@ a:hover {
   text-decoration: none;
 }
 
+.media {
+  margin: auto;
+}
+
 /*  Buttons
 Any styling for buttons on the website can be
 found here. Colors match the overal style of
@@ -321,10 +325,6 @@ centering content.*/
   margin: 30px auto;
 }
 
-.media {
-  margin: auto;
-}
-
 .benefits-media {
   margin: auto;
   width: 150%;
@@ -427,8 +427,10 @@ The styling for the Meals Page is mainly padding and margins
 in order to center the content and space everything out.
 The background color for the heading is set to the same
 gray as the rest of the website.  */
-#meals-container .media {
-  padding-bottom: 20px;
+.meals-image {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 20px
 }
 
 #meals-plain {
