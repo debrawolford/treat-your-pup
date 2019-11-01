@@ -27,7 +27,7 @@ Here is a link to the live preview: https://debrawolford.github.io/treat-your-pu
 #### 	What does a user expect?
 
 (a) What is this/does it have what I want?
-		Company name logo will be on all pages. When going to the "See Meals" page there will be detailed information on the ingredients in each type of meal. Social Section at bottom of homepage with posts tagged #treatyourpup so potential customers can see the meals in action.
+		Company name will be on all pages. When going to the "See Meals" page there will be detailed information on the ingredients in each type of meal. Social Section at bottom of homepage with posts tagged #treatyourpup so potential customers can see the meals in action (this has not been implemented yet as the company does not have a following on Instagram).
 (b) How can find out more?
 		Have an FAQ page accessible via the nav bar at the top
 (c) How can I contact someone?
@@ -84,13 +84,15 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 -  Mobile responsiveness: The website has been designed with both mobile and desktop users in mind. Many of the images disappear when viewing the website from a small screen in order to save space. The navigation bar collapses into a mobile-friendly icon known as a "hamburger" icon, and the "Try it Out" button disappears on mobile screens as well.
 - All images have an alt tag for screen readers and in case the image doesn't load properly.
 - A modal pops up when users select "Order" on the Meals page. This lets them know that we are currently not accepting any orders.
+- All external links have a target="blank" attribute which will pop open a new window so they don't leave the website.
 
 ### Hopeful Future Features
 
-- Order page: At the moment when wanting to order any of the meals by selecting the order button, users get an error modal. This will be updated in the future to include an order process.
+- Order page: At the moment when wanting to order any of the meals by selecting the order button, users get an error modal. This will be hopefully be updated in the future to include an order process that allows users to select how many calories they need, for how many days, etc.
 - More FAQ answers: Currently there are only the most basic questions and answers. But as we learn what customers ask about we will start adding more questions and answers.
-- User Accounts: Due to a lack of knowledge in back end development there are no pages regarding user accounts yet. But the goal is to give customers the option to create an account in order to make future orders simpler and quicker.
-- I tried adding a modal letting the user know that their form had been submitted, but unfortunately it popped up even when the fields weren't filled out. So leaving this for a later date.
+- An easier to navigate FAQ page: To make finding answers easier, a search bar and some sort of navigation system on the FAQ page would be a necessary addition.
+- User Accounts: Due to a lack of knowledge in back end development there are no pages regarding user accounts yet. But the goal is to give customers the option to create an account in order to make future orders simpler and quicker and to be able to get the 10% discount.
+- I tried adding a modal letting the user know that their contact form had been submitted, but unfortunately it popped up even when the fields weren't filled out. So leaving this for a later date.
 
 ## Technologies Used
 
@@ -112,13 +114,18 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 - <a href="https://colorsupplyyy.com/app/"> Color Picker</a>: The two colors used on this website were matched together using this website.
 - <a href="https://www.github.com"> Github</a>: Used to host the repositories for this project and the live website preview.
 - <a href="https://www.canva.com"> Canva </a>: Used to resize images an create logo.
+- <a href="https://fonts.google.com/"> Google Fonts </a>: Used to get two fonts on the website (Dancing Script and Lato).
+- <a href="https://www.favicon-generator.org/"> Favicon </a>: Used to generate favicons of the logo.
+- <a href="https://fontawesome.com/"> Font Awesome </a>: All icons on the website come from Font Awesome.
 
 
 ## Testing
 
 Chrome Developer Tools was used the entirety of my project to test out how the website rendered on different viewports/devices. By using the device selector I went through each screen size to confirm that everything looked correct each time. If something wasn't rendering properly, I would first edit the code within Chrome Developer to see my changes as I typed them. Once the issue was resolved, I would add it to my code in Atom.
 
-Currently the website has been tested in both Google Chrome and Safari. Everything renders well on Safari for desktop, but on Safari and Google Chrome for mobile the background image at the top of the home page isn't showing up. In Google Chrome for desktop there was an issue with the top of the same background image being cut off by the navbar and looking strange. But with the help of Anthony from the Slack community the navbar issue has been resolved. Unfortunately, even after resizing the mobile images and making sure the files weren't too large, the image is still not appearing on mobile.
+Currently the website has been tested in both Google Chrome and Safari. Everything renders well on Safari for desktop, but on Safari and Google Chrome for mobile the background image at the top of the home page isn't showing up. In Google Chrome for desktop there was an issue with the top of the same background image being cut off by the navbar and looking strange. But with the help of Anthony from the Slack community the navbar issue has been resolved by putthing the navbar in a header tag and adding 70px top-margin. Unfortunately, even after resizing the mobile images and making sure the files weren't too large, the image is still not appearing on mobile.
+
+During the mid project review with my mentor, it was suggested to add a pop up modal to the order buttons on the Meals page to let users know that the website is still under maintenance. This was then added to the website.
 
 - Contact Form:
 1. Clicked on "Contact Us"
@@ -149,20 +156,28 @@ W3C Markup Validation was used to ensure that all of the HTML and CSS code match
 
 ### User Stories Testing:
 
-1. Someone with a dog that has heavy food allergies:
-- Scrolls down on home page and reads the "Designed for your dog" section.
-- Selects "Try it Out" and heads to the Meals page.
-- Scrolls down and sees all the different special meals options.
-- Presses order on the option that works best for his/her dog.
+1. I have  a dog that has heavy food allergies and want to find a suitable meal that my dog can eat:
+- I scroll down on the home page and read the "Designed for your dog" section.
+- I select "Try it Out" and get redirected to the Meals page.
+- I scroll down and sees all the different special meals options.
+- I press on the Order button for the dairy free option.
 
-2. Someone with multiple dogs:
-- Selects Meals Pages
-- Scrolls down to Mix and Match to choose multiple meals per dog.
+2. I have multiple dogs with different preferences and would like to buy a meal for all of them:
+- I select Meals Pages
+- I scroll down to Mix and Match and press order so I can combine several meals/caloric needs.
 <i>(This could be improved in the future by offering a discount for people with multiple dogs)</i>
 
-3. Someone who works full-time and is rarely home during the day:
-- Selects FAQ page to find out about delivery
-- Scrolls down to Shipping and Delivery and sees that there is flexible delivery plans.
+3. I work full-time and am rarely home during the day:
+- I select FAQ page to find out about delivery
+- I scroll down to Shipping and Delivery and read the question/answer letting me know that there flexible delivery options.
+-  I click on "See Meals" on the navbar.
+- I find the meal that suits my dog and click on Order.
+
+4. I am unhappy with my order and would like to contact someone.
+- When on the home page I select FAQ to see if there is information about refunds.
+- Under User Account I read that I can indeed get a refund  but need to get in touch.
+- I scroll to the bottom of the page and see the info@treatyourpup.com email address.
+- I click on it and a new page opens where I can type out my complaint in an email.
 
 ## Deployment
 
@@ -218,4 +233,4 @@ Thanks to Mark Otto and Jacob Thornton for initially creating Bootstrap, which h
 
 Thanks to my dog, Teddy, who patiently waits for me to cook for him daily and inspiring me to create this fictitious company.
 
-Thanks to Anthony from the Slack Community for helping me with a couple of image spacing issues towards the end of the project. The part that he helped me on has been noted in css.
+Thanks to Anthony O' Brien, Simen Daehlin, Anna Greaves and Alan Maher from the Slack Community for helping me by looking at the project and giving me valuable feedback and suggestions.
