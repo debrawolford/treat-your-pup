@@ -14,9 +14,9 @@ Here is a link to the live preview: https://debrawolford.github.io/treat-your-pu
 
 ## UX Design
 
-<a href="https://github.com/debrawolford/treat-your-pup/tree/master/ux-design/wireframes">Click here </a> to see all the wireframes for this project.
+<a href="https://github.com/debrawolford/treat-your-pup/tree/master/wireframes">Click here </a> to see all the wireframes and full UX Design document for this project.
 
-<a href="https://github.com/debrawolford/treat-your-pup/blob/master/ux-design/project-design-process.pdf">Click here </a> to read the complete UX Design report for this project. Below is a shorter summary of the UX Design report.
+Below is a shorter summary of the UX Design report.
 
 ### The Strategy Plane
 
@@ -49,7 +49,7 @@ The Social Sharing, vet testimony and contact sections should offer a level of t
 #### Importance vs. Feasibility
 
 <p align="center">
-<img src="ux-design/importance-vs-feasibility.png">
+<img src="wireframes/importance-vs-feasibility.png">
 </p>
 
 ### The Scope Plane
@@ -72,7 +72,7 @@ The website will have a traditional navigation bar at the top of each page with 
 
 ### The Skeleton Frame
 
-Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/ux-design/wireframes">Click here </a> to see all the wireframes for this project.
+Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/wireframes">Click here </a> to see all the wireframes for this project.
 <p align="center">
 <img src="ux-design/Wireframes/home-page-typ.png">
 
