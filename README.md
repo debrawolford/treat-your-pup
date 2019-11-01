@@ -74,11 +74,11 @@ The website will have a traditional navigation bar at the top of each page with 
 
 Below are the three wireframes for the home page. <a href="https://github.com/debrawolford/treat-your-pup/tree/master/wireframes">Click here </a> to see all the wireframes for this project.
 <p align="center">
-<img src="ux-design/Wireframes/home-page-typ.png">
+<img src="wireframes/home-page-typ.png">
 
-<img src="ux-design/Wireframes/tablet-homepage.png">
+<img src="wireframes/tablet-homepage.png">
 
-<img src="ux-design/Wireframes/home-page-mobile.png">
+<img src="wireframes/home-page-mobile.png">
 </p>
 
 ## Features
@@ -123,7 +123,7 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 - <a href="https://www.pixabay.com">Pixabay</a>: Free online images. Used for all images on website other than logo.
 - <a href="https://colorsupplyyy.com/app/"> Color Picker</a>: The two colors used on this website were matched together using this website.
 - <a href="https://www.github.com"> Github</a>: Used to host the repositories for this project and the live website preview.
-- <a href="https://www.canva.com"> Canva </a>: Used to resize images an create logo.
+- <a href="https://www.canva.com"> Canva </a>: Used to resize images and create logo.
 - <a href="https://fonts.google.com/"> Google Fonts </a>: Used to get two fonts on the website (Dancing Script and Lato).
 - <a href="https://www.favicon-generator.org/"> Favicon </a>: Used to generate favicons of the logo.
 - <a href="https://fontawesome.com/"> Font Awesome </a>: All icons on the website come from Font Awesome.
