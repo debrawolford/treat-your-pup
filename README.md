@@ -133,7 +133,7 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 
 Chrome Developer Tools was used the entirety of my project to test out how the website rendered on different viewports/devices. By using the device selector I went through each screen size to confirm that everything looked correct each time. If something wasn't rendering properly, I would first edit the code within Chrome Developer to see my changes as I typed them. Once the issue was resolved, I would add it to my code in Atom.
 
-Currently the website has been tested in both Google Chrome and Safari. Everything renders well on Safari for desktop, but on Safari and Google Chrome for mobile the background image at the top of the home page isn't showing up. In Google Chrome for desktop there was an issue with the top of the same background image being cut off by the navbar and looking strange. But with the help of Anthony from the Slack community the navbar issue has been resolved by putthing the navbar in a header tag and adding 70px top-margin. Unfortunately, even after resizing the mobile images and making sure the files weren't too large, the image is still not appearing on mobile.
+Currently the website has been tested in both Google Chrome and Safari. Everything renders well on Safari for desktop, but on Safari and Google Chrome for mobile the background image at the top of the home page isn't showing up. In Google Chrome for desktop there was an issue with the top of the same background image being cut off by the navbar and looking strange. But with the help of Anthony from the Slack community the navbar issue has been resolved by putting the navbar in a header tag and adding 70px top-margin. Unfortunately, even after resizing the mobile images and making sure the files weren't too large, the image is still not appearing on mobile.
 
 During the mid project review with my mentor, it was suggested to add a pop up modal to the order buttons on the Meals page to let users know that the website is still under maintenance. This was then added to the website.
 
@@ -163,10 +163,15 @@ During the mid project review with my mentor, it was suggested to add a pop up m
 4. Repeated for all "Order" buttons on the page.
 
 W3C Markup Validation was used to ensure that all of the HTML and CSS code matches industry standards:
+
 When testing contact.html: "Document checking completed. No errors or warnings to show."
+
 When testing index.html: Only get error message regarding percentages for image sizes and that I should be using em/px instead. But I have tried both and the images don't render nicely on all sizes so have decided to stick with percentages for now.
+
 When testing meals.html: Same issue with percentages on images as index.html.
+
 When testing faq.html: "Document checking completed. No errors or warnings to show."
+
 When testing style.css: "Congratulations! No Error Found."
 
 ### User Stories Testing:
