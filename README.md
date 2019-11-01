@@ -121,7 +121,7 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 ### Tools
 
 - <a href="https://www.pixabay.com">Pixabay</a>: Free online images. Used for all images on website other than logo.
-- <a href="https://colorsupplyyy.com/app/"> Color Picker</a>: The two colors used on this website were matched together using this website.
+- <a href="https://colorsupplyyy.com/app/"> Color Picker</a>: The blue and yellow accent colors used on this website were matched together using Color Picker.
 - <a href="https://www.github.com"> Github</a>: Used to host the repositories for this project and the live website preview.
 - <a href="https://www.canva.com"> Canva </a>: Used to resize images and create logo.
 - <a href="https://fonts.google.com/"> Google Fonts </a>: Used to get two fonts on the website (Dancing Script and Lato).
