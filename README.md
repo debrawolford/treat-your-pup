@@ -152,7 +152,12 @@ During the mid project review with my mentor, it was suggested to add a pop up m
 3. Confirmed that "Sorry! " message pops up when trying to order.
 4. Repeated for all "Order" buttons on the page.
 
-W3C Markup Validation was used to ensure that all of the HTML and CSS code matches industry standards.
+W3C Markup Validation was used to ensure that all of the HTML and CSS code matches industry standards:
+When testing contact.html: "Document checking completed. No errors or warnings to show."
+When testing index.html: Only get error message regarding percentages for image sizes and that I should be using em/px instead. But I have tried both and the images don't render nicely on all sizes so have decided to stick with percentages for now.
+When testing meals.html: Same issue with percentages on images as index.html.
+When testing faq.html: "Document checking completed. No errors or warnings to show."
+When testing style.css: "Congratulations! No Error Found."
 
 ### User Stories Testing:
 
