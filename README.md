@@ -141,9 +141,9 @@ During the mid project review with my mentor, it was suggested to add a pop up m
 1. Clicked on "Contact Us"
 2. Tried submitting the form empty but received an error message asking to fill in data.
 3. Tried to submit the form by filling in something other than an email address in the email form but received an error message asking me to put in a valid email address
-4. Tried submitting form with all fields filled in correctly and received the pop up message.
+4. Tried submitting form with all fields filled in correctly and received no error message.
 
-- Modal form: Same as contact form, except submit button does not create a pop-up or link to another page yet.
+- Modal form: Same as contact form.
 
 - Navigation bar and Footer:
 1. Tried selecting all options while on the Home page to see if they lead to the corresponding pages: success
@@ -152,9 +152,9 @@ During the mid project review with my mentor, it was suggested to add a pop up m
 4. Tried selecting all options while on the Contact Us page to see if they lead to the corresponding pages: success
 
 - Social buttons:
-1. When selecting Facebook icon it directs to facebook.com.
-2. When selecting Instagram icon it directs to instagram.com.
-3. When selecting Twitter icon it directs to twitter.com
+1. When selecting Facebook icon it directs to facebook.com in a new tab.
+2. When selecting Instagram icon it directs to instagram.com in a new tab.
+3. When selecting Twitter icon it directs to twitter.com in a new tab.
 
 - Order Meals:
 1. Clicked on "See Meals"
