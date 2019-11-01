@@ -109,7 +109,10 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 
 - HTML: This was the language used to add all the content to the pages.
 - CSS: Cascading Style Sheets language used to style all the pages and improve the user experience.
-- <a href="https://www.getbootstrap.com">Bootstrap version</a>: Used for initial styling and in order to create a uniform website that renders well on all screen sizes. Also used for some basic Javascript additions.
+
+### Tools
+
+- <a href="https://www.getbootstrap.com">Bootstrap</a>: Used for initial styling and in order to create a uniform website that renders well on all screen sizes. Also used for some basic Javascript additions.
 - <a href="https://www.atom.io"> Atom</a>: The code editor used for this project.
 - <a href="https://git-scm.com"> Git</a>: Installed on Atom as a plugin to allow version control.
 - <a href="https://balsamiq.com/"> Balsamiq Mockups </a>: Used to create the wireframes during the UX Design process.
@@ -117,9 +120,6 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 - <a href="https://autoprefixer.github.io/"> Autoprefixer</a>: Added vendor prefixes to CSS for different browsers.
 - <a href="https://jigsaw.w3.org/css-validator/"> W3C Markup Validation Jigsaw</a>: To validate the CSS code.
 - <a href="https://validator.w3.org/"> W3C Markup Validation</a>: To validate the HTML code.
-
-### Tools
-
 - <a href="https://www.pixabay.com">Pixabay</a>: Free online images. Used for all images on website other than logo.
 - <a href="https://colorsupplyyy.com/app/"> Color Picker</a>: The blue and yellow accent colors used on this website were matched together using Color Picker.
 - <a href="https://www.github.com"> Github</a>: Used to host the repositories for this project and the live website preview.
@@ -140,7 +140,7 @@ During the mid project review with my mentor, it was suggested to add a pop up m
 - Contact Form:
 1. Clicked on "Contact Us"
 2. Tried submitting the form empty but received an error message asking to fill in data.
-3. Tried to submit the form by filling in something other than an email address in the email form but received an error message asking me to put in a valid email address
+3. Tried to submit the form by filling in something other than an email address in the email form but received an error message asking me to put in a valid email address.
 4. Tried submitting form with all fields filled in correctly and received no error message.
 
 - Modal form: Same as contact form.
@@ -157,7 +157,7 @@ During the mid project review with my mentor, it was suggested to add a pop up m
 3. When selecting Twitter icon it directs to twitter.com in a new tab.
 
 - Order Meals:
-1. Clicked on "See Meals"
+1. Clicked on "See Meals".
 2. Clicked on any order button on the page.
 3. Confirmed that "Sorry! " message pops up when trying to order.
 4. Repeated for all "Order" buttons on the page.
@@ -183,17 +183,17 @@ When testing style.css: "Congratulations! No Error Found."
 - I press on the Order button for the dairy free option.
 
 2. I have multiple dogs with different preferences and would like to buy a meal for all of them:
-- I select Meals Pages
+- I select Meals Pages.
 - I scroll down to Mix and Match and press order so I can combine several meals/caloric needs.
 <i>(This could be improved in the future by offering a discount for people with multiple dogs)</i>
 
-3. I work full-time and am rarely home during the day:
-- I select FAQ page to find out about delivery
+3. I work full-time and am rarely home during the day and would like to see if the meals can be delivered in the mornings or evenings:
+- I select FAQ page to find out about delivery.
 - I scroll down to Shipping and Delivery and read the question/answer letting me know that there flexible delivery options.
 -  I click on "See Meals" on the navbar.
 - I find the meal that suits my dog and click on Order.
 
-4. I am unhappy with my order and would like to contact someone.
+4. I am unhappy with my order and would like to contact someone:
 - When on the home page I select FAQ to see if there is information about refunds.
 - Under User Account I read that I can indeed get a refund  but need to get in touch.
 - I scroll to the bottom of the page and see the info@treatyourpup.com email address.
@@ -219,13 +219,14 @@ To deploy the website from its GitHub Repository I took these steps:
 
 Take the following steps to clone the website:
 
-1. Navigate to the repository from the Github Dashboard.
+1. Navigate to the repository from the Github Dashboard
 2. Select the green button in the top right of the screen that says "Clone or download"
-3. Click on the clipboard icon to the right of the URL to copy it.
-4. Open an Integrated Development Environment (IDE) and head over to the terminal.
-5. Change the directory to where you want to clone the repository to.
-6. Paste the URL that you copied in step 3 and select "Ok".
-7. The site will then be cloned.
+3. Click on the clipboard icon to the right of the URL to copy it
+4. Open an Integrated Development Environment (IDE) and head over to the terminal
+5. Change the directory to where you want to clone the repository to
+6. Execute the following command by pasting in the URL you copied in step 3: git clone https://github.com/debrawolford/treat-your-pup.git
+7. Press Enter
+8. The site will then be cloned
 
 ## Credits
 
