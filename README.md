@@ -86,7 +86,7 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 ### Existing Features
 
 - Fully interactive navigation bar and footer: Allows users to easily navigate through website without needing to use the back button in the browser. The navigation bar items all have the "active" class from Bootstrap so users can easily see which page they are currently viewing.
-- A contact form: The form builds a sense of trust for potential customers as it gives them the opportunity to get in touch regarding any questions they might have. All fields are set to required so the form will not be submitted unless they are all filled out.
+- A contact form: The form builds a sense of trust for potential customers as it gives them the opportunity to get in touch regarding any questions they might have. All fields are set to required so the form will not be submitted unless they are all filled out. This is not functioning yet and when users fill out the form correctly and click on submit, nothing happens.
 - FAQ page: This page answers some of the common questions asked by customers so that they don't need to get in touch if their question is listed.
 - Social icons: The social icons are located at the bottom of the page and encourages users to stay active with Treat Your Pup on Social Media.
 - Meals page: The meals page shows all of the current recipes offered and a short description of them. There is also an option to mix and match meals in case a customer isn't sure which meal their dog will prefer.
@@ -103,6 +103,7 @@ Below are the three wireframes for the home page. <a href="https://github.com/de
 - An easier to navigate FAQ page: To make finding answers easier, a search bar and some sort of navigation system on the FAQ page would be a necessary addition.
 - User Accounts: Due to a lack of knowledge in back end development there are no pages regarding user accounts yet. But the goal is to give customers the option to create an account in order to make future orders simpler and quicker and to be able to get the 10% discount.
 - I tried adding a modal letting the user know that their contact form had been submitted, but unfortunately it popped up even when the fields weren't filled out. So leaving this for a later date.
+- I wanted to add a pop up in the 10% discount modal when users selected Create Account, but do not have the necessary skills for that yet, so leaving for a later date.
 
 ## Technologies Used
 
@@ -141,7 +142,7 @@ During the mid project review with my mentor, it was suggested to add a pop up m
 1. Clicked on "Contact Us"
 2. Tried submitting the form empty but received an error message asking to fill in data.
 3. Tried to submit the form by filling in something other than an email address in the email form but received an error message asking me to put in a valid email address.
-4. Tried submitting form with all fields filled in correctly and received no error message.
+4. Tried submitting form with all fields filled in correctly and received no error message. But nothing happened yet as the form will not actually be submitted.
 
 - Modal form: Same as contact form.
 
@@ -166,9 +167,9 @@ W3C Markup Validation was used to ensure that all of the HTML and CSS code match
 
 When testing contact.html: "Document checking completed. No errors or warnings to show."
 
-When testing index.html: Only get error message regarding percentages for image sizes and that I should be using em/px instead. But I have tried both and the images don't render nicely on all sizes so have decided to stick with percentages for now.
+When testing index.html: Only get error message regarding percentages for image sizes and that I should be using em/px instead. Moved the image sizing to css and ran the test again: "Document checking completed. No errors or warnings to show."
 
-When testing meals.html: Same issue with percentages on images as index.html.
+When testing meals.html: Same issue with percentages on images as index.html. Moved the image sizing to css and ran the test again: "Document checking completed. No errors or warnings to show."
 
 When testing faq.html: "Document checking completed. No errors or warnings to show."
 
@@ -181,17 +182,20 @@ When testing style.css: "Congratulations! No Error Found."
 - I select "Try it Out" and get redirected to the Meals page.
 - I scroll down and sees all the different special meals options.
 - I press on the Order button for the dairy free option.
+- I get an error pop-up telling me that they are not accepting orders.
 
 2. I have multiple dogs with different preferences and would like to buy a meal for all of them:
 - I select Meals Pages.
 - I scroll down to Mix and Match and press order so I can combine several meals/caloric needs.
 <i>(This could be improved in the future by offering a discount for people with multiple dogs)</i>
+- I get an error pop-up telling me that they are not accepting orders.
 
 3. I work full-time and am rarely home during the day and would like to see if the meals can be delivered in the mornings or evenings:
 - I select FAQ page to find out about delivery.
 - I scroll down to Shipping and Delivery and read the question/answer letting me know that there flexible delivery options.
 -  I click on "See Meals" on the navbar.
 - I find the meal that suits my dog and click on Order.
+- I get an error pop-up telling me that they are not accepting orders.
 
 4. I am unhappy with my order and would like to contact someone:
 - When on the home page I select FAQ to see if there is information about refunds.
